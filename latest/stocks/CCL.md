@@ -1,5 +1,5 @@
 # 每日简报 — US.CCL
-**日期：2026-10-04 | 生成时间：2026-10-04 17:58 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:14 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -93,20 +93,20 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:fc0a1034fa07` 固定本次报告实际消费的输入；状态：**🚨 权限与输入矛盾**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:43309df4fc83` 固定本次报告实际消费的输入；状态：**🚨 权限与输入矛盾**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $25.76 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:58:20+00:00；供应商时间 2026-10-02 20:02:32.082 |
-| 当前主倍数 | PE 10.82x | ✅可用 | valuation_engine: current price / reconstructed TTM EPS | DERIVED_SAME_BASIS；本地观察 2026-10-04T21:58:25+00:00；供应商时间 2026-10-02 20:02:32.082 |
+| 估值现价 | $25.76 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:14:15+00:00；供应商时间 2026-10-02 20:02:32.082 |
+| 当前主倍数 | PE 10.82x | ✅可用 | valuation_engine: current price / reconstructed TTM EPS | DERIVED_SAME_BASIS；本地观察 2026-10-04T22:14:18+00:00；供应商时间 2026-10-02 20:02:32.082 |
 | 主估值每股分母 | TTM EPS 2.3800 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | regime_weighted_hdi / HIGH | ✅可用 | valuation_engine | 历史有效点 630 |
 | TTM FCF分子 | 3200000000 USD；CFO 6794000000 − Capex 3594000000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-08-31, 2025-11-30, 2026-02-28, 2026-05-31；原标签 2025-08-31, 2025-11-30, 2026-02-28, 2026-05-31；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-04T21:58:21+00:00 |
 | FCF收益率分母 | 研究市值 34637156923；股数基数 1344610129；收益率 9.24% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
 | 供应商quote FCF诊断 | 1807624960（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
-| 季度EPS/TTM EPS历史 | NETWORK_REFRESH; cache FRESH; age 0.00h / TTL 85d; fallback pending_eps_required_full_refresh | ⚠️部分 | Yahoo get_earnings_dates | 本地观察 2026-10-04T21:58:23+00:00；数据截至 2026-09-29；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=6b2049e6524613b4 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:58:24+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:58:25+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:32.082；供应商发布时间 供应商未提供 |
+| 季度EPS/TTM EPS历史 | NETWORK_REFRESH; cache FRESH; age 0.00h / TTL 85d; fallback pending_eps_required_full_refresh | ⚠️部分 | Yahoo get_earnings_dates | 本地观察 2026-10-04T22:14:17+00:00；数据截至 2026-09-29；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | CACHE; cache FRESH; age 0.27h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=f21eb04b4180bb42 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:58:24+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:14:18+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:32.082；供应商发布时间 供应商未提供 |
 | 冻结假设 | 历史价格与报告日对齐的滚动TTM EPS重建同口径PE；区间由已记录的动态制度/HDI选择器决定 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 可参与估值评分/风险证据，但不能单独触发交易 | — | capability boundary | 本次清单 |
 | 一致性检查 | decision_input_ttm_eps_provenance_not_available | — | deterministic validator | 本次清单 |
@@ -132,8 +132,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CCL | 2021-10-04 → 2026-10-02 | `baea1301f1084609` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CCL | 2021-10-11 → 2026-09-28 | `dd813acb36cfbd2f` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CCL | 2021-10-04 → 2026-10-02 | `47c20b3a49112fdd` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CCL | 2021-10-11 → 2026-09-28 | `c0ee31b6214a69be` |
 
 
 ## 🧭 受限能力权限矩阵

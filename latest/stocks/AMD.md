@@ -1,5 +1,5 @@
 # 每日简报 — US.AMD
-**日期：2026-10-04 | 生成时间：2026-10-04 17:58 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:14 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -81,11 +81,11 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:538011d9e1ae` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:0428498e3f0b` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $633.91 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:58:05+00:00；供应商时间 2026-10-02 20:02:26.931 |
+| 估值现价 | $633.91 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:14:01+00:00；供应商时间 2026-10-02 20:02:26.931 |
 | 当前主倍数 | Forward PE 46.13x | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 与本次现价及已冻结分母对齐 |
 | 主估值每股分母 | 日历化NTM EPS 13.7407 | 🧮估算 | Yahoo earnings_estimate calendarized 0y/+1y | 按估值结果所记录口径 |
 | 区间身份 | forward_eps_scenario_v3_fiscal_calendar_ttm_fcf / MEDIUM | ✅可用 | valuation_engine | 历史有效点 1253 |
@@ -93,14 +93,14 @@
 | FCF收益率分母 | 研究市值 1034842253874；股数基数 1632475042；收益率 0.81% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
 | 供应商quote FCF诊断 | 8841499648（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
 | Forward FY1 / FY2 EPS | 7.5768 / 15.5833 | 🧮估算 | Yahoo earnings_estimate calendarized 0y/+1y | 财政年末 2026-12-27；结构化报表期末 2026-06-30（日期映射见财年审计） |
-| Forward数据时效与路径 | NETWORK; cache FRESH; age 0.00h / TTL 7d; fallback cache_rejected:stale forward-consensus schema | ✅可用 | Yahoo earnings_estimate calendarized 0y/+1y | 本地首次观察 2026-10-04T21:58:06+00:00；供应商发布时间 供应商未提供 |
+| Forward数据时效与路径 | CACHE; cache FRESH; age 0.27h / TTL 7d; fallback 无 | ✅可用 | Yahoo earnings_estimate calendarized 0y/+1y | 本地首次观察 2026-10-04T21:58:06+00:00；供应商发布时间 供应商未提供 |
 | 压力/基准/乐观价 | $201.01 / $299.82 / $360.60 | 🧮估算 | EPS情景 × Forward PE情景 | 本次报告快照 |
 | EPS正常化 | NONE; 调整 0.0000 | ✅可用 | N/A | 2026-08-04 |
 | 财年日历与NTM系数 | 2025-12-27 → 2026-12-27；FY1/FY2 365/365天；系数 0.230137/0.769863 | 🧮估算 | PROVIDER_DATE；Yahoo info.nextFiscalYearEnd (unverified calendar) | 计算日 2026-10-04；供应商原日期 2026-12-27 |
-| 反向DCF基期 | 年度FCF 8403000000；每股FCF 5.1474 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 供应商期间标签 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30 |
-| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 1412.59h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-08-07T01:22:59+00:00；数据截至 2026-08-04；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=a1b107e9829619e6 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:58:06+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:58:06+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:26.931；供应商发布时间 供应商未提供 |
+| 反向DCF基期 | 年度FCF 8403000000；每股FCF 5.1474 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；原标签见TTM FCF审计 |
+| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 1412.85h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-08-07T01:22:59+00:00；数据截至 2026-08-04；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | CACHE; cache FRESH; age 0.27h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=5e42df377715eccc | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:58:06+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:14:02+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:26.931；供应商发布时间 供应商未提供 |
 | 冻结假设 | NTM采用年度EPS日均率按实际财年天数拼接未来一年；53周财年系数不强制和为1，未模拟季度季节性；压力/基准/乐观权重固定为25%/50%/25%；Forward价值观察线使用20%安全边际；反向DCF只作压力测试：5年显性期，要求回报率 10.0%，永续增长 3.5% | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
@@ -120,7 +120,7 @@
 | Forward价值观察线 | **$232.25** （尚未达到） | 概率加权中心再留20%安全边际；当前高于加权中心118.4%；还要求≥10位分析师且EPS预期未显著下修；只决定研究文件夹，不产生BUY权 |
 | 历史TTM PE背景 | 80.8–119.4x | 过去曾经交易到，不是当前合理价上/下限，不参与目标价 |
 | 最近52周TTM PE背景 | 57.5–97.9x （中位68.5x） | 同样只作Trailing PE观察 |
-| 可比公司Forward PE | 17.2–22.8x （中位18.9x，n=5） | industry+sector_similarity；用于倍数护栏，不单独决定目标价 |
+| 可比公司Forward PE | 17.2–22.8x （中位18.9x，n=5） | industry；用于倍数护栏，不单独决定目标价 |
 | 反向DCF压力测试 | 当前价隐含未来5年FCF年增约 **60.5%**；乐观价需要约42.6% | 折现率10.0%、永续增长3.5%；敏感性高，仅作可行性检查 |
 | 反向DCF基期 | TTM FCF $8.403B；每股FCF $5.1474 | 研究期间 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30（日期口径见审计）；CFO−Capex，未另扣融资租赁本金；与公司自定义FCF可能不同 |
 
@@ -134,8 +134,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.AMD | 2021-10-04 → 2026-10-02 | `387bd91212dc52eb` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.AMD | 2021-10-11 → 2026-09-28 | `811f0a5bdda38cb5` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.AMD | 2021-10-04 → 2026-10-02 | `819e0a30a5fd9046` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.AMD | 2021-10-11 → 2026-09-28 | `79e1cc0f04b77cca` |
 
 
 ## 🧭 受限能力权限矩阵

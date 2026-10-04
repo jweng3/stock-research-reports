@@ -1,5 +1,5 @@
 # 每日简报 — US.CBRS
-**日期：2026-10-04 | 生成时间：2026-10-04 17:56 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:12 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -83,16 +83,16 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:6a7e3fb3053b` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:0314aa42739f` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $166.43 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:56:48+00:00；供应商时间 2026-10-02 20:02:45.446 |
-| 当前主倍数 | PS 58.09x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T21:56:49+00:00；供应商时间 N/A |
+| 估值现价 | $166.43 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:12:52+00:00；供应商时间 2026-10-02 20:02:45.446 |
+| 当前主倍数 | PS 58.09x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T22:12:53+00:00；供应商时间 N/A |
 | 主估值每股分母 | N/A N/A | ❌缺失 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | insufficient_history / LOW | ✅可用 | valuation_engine | 历史有效点 1 |
-| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 499.04h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-09-14T02:54:44+00:00；数据截至 2026-08-12；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ❌缺失 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:56:49+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:45.446；供应商发布时间 供应商未提供 |
+| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 499.30h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-09-14T02:54:44+00:00；数据截至 2026-08-12；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ❌缺失 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:12:52+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:45.446；供应商发布时间 供应商未提供 |
 | P/S历史倍数 | CACHE; cache FRESH; age N/A / TTL 85d; fallback legacy_cache_missing_as_of_date | ⚠️部分 | Yahoo fundamentals-timeseries | 本地观察 2026-07-16；数据截至 N/A；供应商时间 N/A；供应商发布时间 供应商未提供 |
 | 冻结假设 | 仅使用估值引擎已选择且可显示的当前倍数/价格锚 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |

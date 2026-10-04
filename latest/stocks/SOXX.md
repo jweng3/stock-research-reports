@@ -1,5 +1,5 @@
 # 每日简报 — US.SOXX
-**日期：2026-10-04 | 生成时间：2026-10-04 17:56 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:12 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -85,11 +85,11 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:5ff69bf08fbf` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:0da58b56b77f` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $588.90 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:56:12+00:00；供应商时间 2026-10-02 20:02:21.510 |
+| 估值现价 | $588.90 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:12:18+00:00；供应商时间 2026-10-02 20:02:21.510 |
 | 当前主倍数 | PE 43.29x | ✅可用 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 与本次现价及已冻结分母对齐 |
 | 主估值每股分母 | N/A N/A | ❌缺失 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 按估值结果所记录口径 |
 | 区间身份 | etf_current_aggregate_v1 / LOW | ✅可用 | valuation_engine | 历史有效点 1 |
@@ -109,8 +109,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.SOXX | 2021-10-04 → 2026-10-02 | `b60243113b8f637f` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.SOXX | 2021-10-11 → 2026-09-28 | `d4723bad84102d17` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.SOXX | 2021-10-04 → 2026-10-02 | `411a980c58aaa0d7` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.SOXX | 2021-10-11 → 2026-09-28 | `9886926366f85477` |
 
 
 ## 🧭 受限能力权限矩阵

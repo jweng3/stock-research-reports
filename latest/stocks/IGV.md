@@ -1,5 +1,5 @@
 # 每日简报 — US.IGV
-**日期：2026-10-04 | 生成时间：2026-10-04 17:57 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:13 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -104,11 +104,11 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:265bda602b88` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:4750a2138b2f` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $108.43 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:57:15+00:00；供应商时间 2026-10-02 20:02:27.831 |
+| 估值现价 | $108.43 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:13:14+00:00；供应商时间 2026-10-02 20:02:27.831 |
 | 当前主倍数 | PE 33.72x | ✅可用 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 与本次现价及已冻结分母对齐 |
 | 主估值每股分母 | N/A N/A | ❌缺失 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 按估值结果所记录口径 |
 | 区间身份 | etf_current_aggregate_v1 / LOW | ✅可用 | valuation_engine | 历史有效点 1 |
@@ -128,8 +128,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.IGV | 2021-10-04 → 2026-10-02 | `9722ece74ec8b38c` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.IGV | 2021-10-11 → 2026-09-28 | `7f21d88c77ca7f0c` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.IGV | 2021-10-04 → 2026-10-02 | `86f4d218982634fe` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.IGV | 2021-10-11 → 2026-09-28 | `a74736cc1ff7c5f6` |
 
 
 ## 🧭 受限能力权限矩阵

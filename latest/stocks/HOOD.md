@@ -1,5 +1,5 @@
 # 每日简报 — US.HOOD
-**日期：2026-10-04 | 生成时间：2026-10-04 17:57 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:13 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -75,20 +75,20 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:b01bf2f12db7` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:75ea7d0b0982` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $112.74 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:57:11+00:00；供应商时间 2026-10-02 20:02:26.595 |
+| 估值现价 | $112.74 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:13:11+00:00；供应商时间 2026-10-02 20:02:26.595 |
 | 当前主倍数 | PB 10.69x | ✅可用 | Yahoo quote info via fundamental_quality snapshot | QUALITY_SNAPSHOT；本地观察 2026-10-04T21:57:12+00:00；供应商时间 N/A |
 | 主估值每股分母 | Book Value/Share 10.5450 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | legacy_p10_p90 / LOW | ✅可用 | valuation_engine | 历史有效点 10 |
 | TTM FCF分子 | 178000000 USD；CFO 245000000 − Capex 67000000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；原标签 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-04T21:57:12+00:00 |
 | FCF收益率分母 | 研究市值 89135652581；股数基数 790630234；收益率 0.20% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
 | 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age N/A / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-08-01；数据截至 2026-07-29；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=7cf377fd47fc41f9 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:57:13+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | CACHE; cache FRESH; age 0.27h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=5f0c16567d54d796 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:57:13+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
 | P/B历史倍数 | CACHE; cache FRESH; age N/A / TTL 85d; fallback legacy_cache_missing_as_of_date | ⚠️部分 | Yahoo fundamentals-timeseries | 本地观察 2026-07-25；数据截至 N/A；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:57:13+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:26.595；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:13:12+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:26.595；供应商发布时间 供应商未提供 |
 | 冻结假设 | 仅使用估值引擎已选择且可显示的当前倍数/价格锚 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
@@ -109,8 +109,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.HOOD | 2021-10-04 → 2026-10-02 | `d68b6f6cbeedc75a` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.HOOD | 2021-10-11 → 2026-09-28 | `7a207b3627f38937` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.HOOD | 2021-10-04 → 2026-10-02 | `d0881b113a90f114` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.HOOD | 2021-10-11 → 2026-09-28 | `8dcfb9f1f3197824` |
 
 
 ## 🧭 受限能力权限矩阵
@@ -164,7 +164,7 @@
 | --- | --- | --- |
 | 分析师EPS修正 | 🟢 **STRONG_UP**（90日 +12.8%） | 上调支持中期重估；下调警惕价值陷阱 |
 | 基本面质量 | **HIGH**（100/100，financial） | TTM FCF（CFO−Capex）收益率 0.20%；经营利润率 43.9%；ROE 23.6%；营收增长 +32.3%；盈利增长 +47.6% |
-| 最相似同行 | **FUTU** PB 3.0x（营收+35.6%，经营率66.7%）；**CRCL** PB 5.8x（营收+6.6%，经营率4.9%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
+| 最相似同行 | **FUTU** PB 2.9x（营收+35.6%，经营率66.7%）；**CRCL** PB 5.8x（营收+6.6%，经营率4.9%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
 | 下次财报 | **2026-10-27（23天）** | 3天内强制观望；4–14天降级等待 |
 | 非财报事件 | ⚪ 手工事件表暂无附近记录 | 手工表不是完整市场日历；入场前仍需核查公司事件 |
 

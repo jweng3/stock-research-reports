@@ -1,5 +1,5 @@
 # 每日简报 — US.BOTZ
-**日期：2026-10-04 | 生成时间：2026-10-04 17:55 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:11 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -95,11 +95,11 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:f6511f6227cd` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:ceb38eeb240a` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $36.03 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:55:29+00:00；供应商时间 2026-10-02 19:30:04.983 |
+| 估值现价 | $36.03 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:11:37+00:00；供应商时间 2026-10-02 19:30:04.983 |
 | 当前主倍数 | PE 34.30x | ✅可用 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 与本次现价及已冻结分母对齐 |
 | 主估值每股分母 | N/A N/A | ❌缺失 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 按估值结果所记录口径 |
 | 区间身份 | etf_current_aggregate_v1 / LOW | ✅可用 | valuation_engine | 历史有效点 1 |
@@ -119,8 +119,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.BOTZ | 2021-10-04 → 2026-10-02 | `36f04c70ad3af467` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.BOTZ | 2021-10-11 → 2026-09-28 | `cb5e29a293bc8903` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.BOTZ | 2021-10-04 → 2026-10-02 | `c7b34ae78b355536` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.BOTZ | 2021-10-11 → 2026-09-28 | `e434c905fc36bf6d` |
 
 
 ## 🧭 受限能力权限矩阵

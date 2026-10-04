@@ -1,5 +1,5 @@
 # 每日简报 — US.TMF
-**日期：2026-10-04 | 生成时间：2026-10-04 17:54 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:10 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -109,11 +109,11 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:d98aa77311f8` 固定本次报告实际消费的输入；状态：**— 当前不可估值**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:b4099d7629f0` 固定本次报告实际消费的输入；状态：**— 当前不可估值**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $77.48 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:54:12+00:00；供应商时间 2026-10-02 20:02:39.903 |
+| 估值现价 | $77.48 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:10:26+00:00；供应商时间 2026-10-02 20:02:39.903 |
 | 当前主倍数 | N/A 0.00x | ❌缺失 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 与本次现价及已冻结分母对齐 |
 | 主估值每股分母 | N/A N/A | ❌缺失 | Yahoo Finance基金级聚合P/E（口径可能与发行商官网不同） | 按估值结果所记录口径 |
 | 区间身份 | N/A / N/A | —不支持 | valuation_engine | 历史有效点 0 |
@@ -133,8 +133,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.TLT | 2021-10-04 → 2026-10-02 | `9759aae2fe438bec` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.TLT | 2021-10-11 → 2026-09-28 | `b8054a203ffa115b` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.TLT | 2021-10-04 → 2026-10-02 | `7b56b70bc179fa0b` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.TLT | 2021-10-11 → 2026-09-28 | `d735433eaaa20261` |
 
 
 ## 🧭 受限能力权限矩阵

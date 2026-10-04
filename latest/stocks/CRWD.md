@@ -1,5 +1,5 @@
 # 每日简报 — US.CRWD
-**日期：2026-10-04 | 生成时间：2026-10-04 17:57 | 策略：2026.09.03-v43 (be2014aaa406c633)**
+**日期：2026-10-04 | 生成时间：2026-10-04 18:13 | 策略：2026.09.03-v43 (2b5dbb301bb4f88c)**
 
 ## 🧭 第一页决策总览
 
@@ -74,20 +74,20 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:d05e77cb37db` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:31237e87c569` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $270.04 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:57:08+00:00；供应商时间 2026-10-02 20:02:33.798 |
-| 当前主倍数 | PS 51.24x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T21:57:11+00:00；供应商时间 N/A |
+| 估值现价 | $270.04 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:13:09+00:00；供应商时间 2026-10-02 20:02:33.798 |
+| 当前主倍数 | PS 51.24x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T22:13:11+00:00；供应商时间 N/A |
 | 主估值每股分母 | TTM Revenue/Share 5.2700 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | legacy_p10_p90 / LOW | ✅可用 | valuation_engine | 历史有效点 13 |
 | TTM FCF分子 | 1522603000 USD；CFO 2016615000 − Capex 494012000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-10-31, 2026-01-31, 2026-04-30, 2026-07-31；原标签 2025-10-31, 2026-01-31, 2026-04-30, 2026-07-31；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-04T21:57:09+00:00 |
 | FCF收益率分母 | 研究市值 276503364734；股数基数 1023934842；收益率 0.55% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
 | 供应商quote FCF诊断 | 1995385472（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
-| 季度EPS/TTM EPS历史 | NETWORK_REFRESH; cache FRESH; age 0.00h / TTL 85d; fallback pending_eps_required_full_refresh | ⚠️部分 | Yahoo get_earnings_dates | 本地观察 2026-10-04T21:57:10+00:00；数据截至 2026-08-26；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=514e7750025acc0f | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:57:10+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:57:10+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:33.798；供应商发布时间 供应商未提供 |
+| 季度EPS/TTM EPS历史 | NETWORK_REFRESH; cache FRESH; age 0.00h / TTL 85d; fallback pending_eps_required_full_refresh | ⚠️部分 | Yahoo get_earnings_dates | 本地观察 2026-10-04T22:13:10+00:00；数据截至 2026-08-26；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | CACHE; cache FRESH; age 0.27h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=1e786d8e6f051649 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:57:10+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T22:13:10+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:33.798；供应商发布时间 供应商未提供 |
 | P/S历史倍数 | CACHE; cache FRESH; age N/A / TTL 85d; fallback legacy_cache_missing_as_of_date | ⚠️部分 | Yahoo fundamentals-timeseries | 本地观察 2026-07-16；数据截至 N/A；供应商时间 N/A；供应商发布时间 供应商未提供 |
 | 冻结假设 | 仅使用估值引擎已选择且可显示的当前倍数/价格锚 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |
@@ -109,8 +109,8 @@
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CRWD | 2021-10-04 → 2026-10-02 | `67f225c974eb222e` |
-| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CRWD | 2021-10-11 → 2026-09-28 | `c6945ab004833b7f` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CRWD | 2021-10-04 → 2026-10-02 | `904fa7b815fc5a2a` |
+| weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.CRWD | 2021-10-11 → 2026-09-28 | `549c33354fe70ed4` |
 
 
 ## 🧭 受限能力权限矩阵
