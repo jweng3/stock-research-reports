@@ -1,5 +1,5 @@
 # 每日简报 — US.AAL
-**日期：2026-10-03 | 生成时间：2026-10-03 22:22 | 策略：2026.09.03-v43 (c5302440dd2fe946)**
+**日期：2026-10-04 | 生成时间：2026-10-04 17:57 | 策略：2026.09.03-v43 (be2014aaa406c633)**
 
 ## 🧭 第一页决策总览
 
@@ -39,7 +39,7 @@
 | 信号 | 当前状态 | 最关键的信息 |
 | --- | --- | --- |
 | 趋势 | 🔴 周线MACD（行情供应商） -0.618 | 均线结构 BEARISH；日线MACD（行情供应商） +0.105 |
-| 财报 | 🟢 2026-10-22 | 距今19天 |
+| 财报 | 🟢 2026-10-22 | 距今18天 |
 | 盈利预期 | 🔴 STRONG_DOWN | 90日 -200.0% |
 | 大盘环境 | BULLISH | 市场环境背景 |
 
@@ -60,7 +60,7 @@
 | ❌ | 板块环境 | XLI 空头，板块逆风 ⚠️ |
 | 🟡 | 相对强度 | 持续跑输（3月-29.0%/6月+1.2%/12-1月+0.8%） |
 | ✅ | 入场支撑 | $11.77 = 23.6% Bounce + HVN核心 $10.92-$11.96 共振 **⭐⭐⭐⭐** |
-| ✅ | 财报风险 | 安全，19天后（2026-10-22） |
+| ✅ | 财报风险 | 安全，18天后（2026-10-22） |
 
 ## 🛑 当前风险：⚠️ 关注风险
 
@@ -90,22 +90,25 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v6-price-basis-provenance:21c3c2ad6dbd` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:705f867c6bcf` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $12.94 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:22:25+00:00；供应商时间 2026-10-02 20:02:42.376 |
-| 当前主倍数 | PS 0.15x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T02:22:27+00:00；供应商时间 N/A |
+| 估值现价 | $12.94 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:57:32+00:00；供应商时间 2026-10-02 20:02:42.376 |
+| 当前主倍数 | PS 0.15x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T21:57:36+00:00；供应商时间 N/A |
 | 主估值每股分母 | TTM Revenue/Share 88.1264 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | legacy_p10_p90 / LOW | ✅可用 | valuation_engine | 历史有效点 10 |
-| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 900.47h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-08-27T13:54:23+00:00；数据截至 2026-07-23；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=063b50ffa95a5427 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T02:22:26+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ❌缺失 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:22:27+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:42.376；供应商发布时间 供应商未提供 |
+| TTM FCF分子 | 285000000 USD；CFO 4374000000 − Capex 4089000000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；原标签 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-04T21:57:34+00:00 |
+| FCF收益率分母 | 研究市值 8565891166；股数基数 661969951；收益率 3.33% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
+| 供应商quote FCF诊断 | 519249984（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
+| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 920.05h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-08-27T13:54:23+00:00；数据截至 2026-07-23；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=063b50ffa95a5427 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:57:35+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ❌缺失 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:57:35+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:42.376；供应商发布时间 供应商未提供 |
 | P/S历史倍数 | CACHE; cache FRESH; age N/A / TTL 85d; fallback legacy_cache_missing_as_of_date | ⚠️部分 | Yahoo fundamentals-timeseries | 本地观察 2026-07-23；数据截至 N/A；供应商时间 N/A；供应商发布时间 供应商未提供 |
 | 冻结假设 | 仅使用估值引擎已选择且可显示的当前倍数/价格锚 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
-| 已知限制 | 稀疏季度历史或业务适用性尚未达到决策级PIT要求；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；ps_multiple_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间 | — | fail-closed说明 | 本次清单 |
+| 已知限制 | TTM operating cash flow minus capital expenditures; finance-lease principal not deducted；provider statement-period labels; issuer-specific FCF may deduct finance-lease principal；稀疏季度历史或业务适用性尚未达到决策级PIT要求；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；ps_multiple_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间 | — | fail-closed说明 | 本次清单 |
 
 
 ### 估值区间计算明细
@@ -176,9 +179,9 @@
 | 维度 | 当前状态 | 解读 |
 | --- | --- | --- |
 | 分析师EPS修正 | 🔴 **STRONG_DOWN**（90日 -200.0%） | 上调支持中期重估；下调警惕价值陷阱 |
-| 基本面质量 | **LOW**（35/100，operating_company） | FCF收益率 6.0%；经营利润率 2.8%；营收增长 +16.3%；盈利增长 -88.2% |
-| 最相似同行 | **SYM** PS 9.9x（营收+21.7%，经营率4.6%）；**RKLB** PS 61.1x（营收+62.0%，经营率-24.6%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
-| 下次财报 | **2026-10-22（19天）** | 3天内强制观望；4–14天降级等待 |
+| 基本面质量 | **LOW**（35/100，operating_company） | TTM FCF（CFO−Capex）收益率 3.33%；经营利润率 2.8%；营收增长 +16.3%；盈利增长 -88.2% |
+| 最相似同行 | **SYM** PS 9.9x（营收+21.7%，经营率4.6%）；**RKLB** PS 61.5x（营收+62.0%，经营率-24.6%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
+| 下次财报 | **2026-10-22（18天）** | 3天内强制观望；4–14天降级等待 |
 | 非财报事件 | ⚪ 手工事件表暂无附近记录 | 手工表不是完整市场日历；入场前仍需核查公司事件 |
 | 持仓结构异常 | 空头占流通股 13.9%；较上月 +41.5% | 仅作背景，不单独触发买卖 |
 

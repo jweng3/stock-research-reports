@@ -1,5 +1,5 @@
 # 每日简报 — US.PEP
-**日期：2026-10-03 | 生成时间：2026-10-03 22:24 | 策略：2026.09.03-v43 (c5302440dd2fe946)**
+**日期：2026-10-04 | 生成时间：2026-10-04 17:59 | 策略：2026.09.03-v43 (be2014aaa406c633)**
 
 ## 🧭 第一页决策总览
 
@@ -8,13 +8,13 @@
 | 项目 | 当前状态 | 关键原因 |
 | --- | --- | --- |
 | 当前价格 | **$125.89** | US.PEP的统一现价基准 |
-| 模型结论 | **🟡 观察等待** | 距财报仅 5 天，入场后很快面临跳空事件；等待财报后重评 |
+| 模型结论 | **🟡 观察等待** | 距财报仅 4 天，入场后很快面临跳空事件；等待财报后重评 |
 
 ### 对应使用的估值范围
 
 | 主估值指标 | 当前倍数 | 本次使用的倍数范围 | 对应价格范围 | 当前定位 |
 | --- | --- | --- | --- | --- |
-| **PE** | PE **15.1x** | PE **16.1–20.7x** | **$134.34–$172.95** | 🟢 低于核心常态区；警戒 >$184.65 |
+| **PE** | PE **15.1x** | PE **16.1–20.7x** | **$134.34–$172.95** | 🟢 低于核心常态区；警戒 >$184.59 |
 
 > **为什么用这个指标**：PE有效、历史充足且常态区间可形成价格锚。详细样本、HDI/p10-p90、Forward与PEG计算见后文。
 
@@ -42,7 +42,7 @@
 | 短线多头背离观察 | 🔎 不参与评级 | MACD观察：收盘低点 $128.50（2026-09-28）→$125.89（2026-10-02），相隔4根日K；RSI6 23.2→19.1↓；RSI12未同步、RSI24未同步；MACD柱（行情供应商）-1.402→-1.089；最新K线仍属临时候选，未满足正式背离的N=4和至少8根间隔；仅作短线动能提示，不参与评级、加仓或止盈 |
 | 深度低估止跌 | 💎⏳ 等待合格止跌 | PE历史第0分位；尚未出现锤头、早晨之星或看涨抱线等严格强止跌形态 |
 | 趋势 | 🔴 周线MACD（行情供应商） -2.385 | 均线结构 BEARISH；日线MACD（行情供应商） -1.089 |
-| 财报 | 🟠 2026-10-08 | 距今5天 |
+| 财报 | 🟠 2026-10-08 | 距今4天 |
 | 大盘环境 | BULLISH | 市场环境背景 |
 
 ## 📚 完整研究明细
@@ -51,7 +51,7 @@
 
 ## 综合判定：🟡 观察等待
 
-> **距财报仅 5 天，入场后很快面临跳空事件；等待财报后重评**
+> **距财报仅 4 天，入场后很快面临跳空事件；等待财报后重评**
 
 ### 分析依据
 
@@ -62,7 +62,7 @@
 | ❌ | 板块环境 | XLP 空头，板块逆风 ⚠️ |
 | 🟡 | 入场支撑 | 最近HVN支撑 $123.73（无Fib共振，支撑偏弱） |
 | 🟡 | 相对强度 | 持续跑输（3月-13.5%/6月-30.6%/12-1月-12.4%） |
-| ✅ | 财报风险 | 安全，5天后（2026-10-08） |
+| ✅ | 财报风险 | 安全，4天后（2026-10-08） |
 | ✅ | 大盘环境 | SPY多头（$769.64 > 200MA $717.04） |
 
 ## ⏳ 当前动作
@@ -76,28 +76,31 @@
 | 自动选择的主指标 | **PE** | PE有效、历史充足且常态区间可形成价格锚 |
 | 当前主指标值 | PE **15.1x** | 当前主指标值 |
 | 核心常态倍数区间 | PE **16.1–20.7x**（对应价格 **$134.34–$172.95**） | 已检测到持续且样本成熟的新估值制度，使用当前制度HDI核心区 |
-| 动态高估警戒线 | **$184.65**（高于现价 46.7%） | 当前制度加权85分位扩展上沿与可靠Forward EPS核心上沿取较高者；越线不能单独触发卖出，仍需其他风险证据共振 |
+| 动态高估警戒线 | **$184.59**（高于现价 46.6%） | 当前制度加权85分位扩展上沿与可靠Forward EPS核心上沿取较高者；越线不能单独触发卖出，仍需其他风险证据共振 |
 | 区间中枢 | PE **18.2x** / **$152.15** | 用于定位，不等于精确目标价 |
 | 当前所处位置 | **🟢 低于核心常态区** | 当前价 $125.89 |
 | 置信度与用途 | **高** | 可参与模型估值评分，但不能单独触发交易 |
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v6-price-basis-provenance:7e4f2f7a8f9c` 固定本次报告实际消费的输入；状态：**✅ 输入完整**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:65a6ee8cf3c1` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $125.89 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:24:19+00:00；供应商时间 2026-10-02 20:02:21.599 |
-| 当前主倍数 | PE 15.06x | ✅可用 | valuation_engine: current price / reconstructed TTM EPS | DERIVED_SAME_BASIS；本地观察 2026-10-04T02:24:22+00:00；供应商时间 2026-10-02 20:02:21.599 |
+| 估值现价 | $125.89 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:59:27+00:00；供应商时间 2026-10-02 20:02:21.599 |
+| 当前主倍数 | PE 15.06x | ✅可用 | valuation_engine: current price / reconstructed TTM EPS | DERIVED_SAME_BASIS；本地观察 2026-10-04T21:59:31+00:00；供应商时间 2026-10-02 20:02:21.599 |
 | 主估值每股分母 | TTM EPS 8.3600 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | regime_weighted_hdi / HIGH | ✅可用 | valuation_engine | 历史有效点 1253 |
+| TTM FCF分子 | 9282000000 USD；CFO 13456000000 − Capex 4174000000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；原标签 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-04T21:59:29+00:00 |
+| FCF收益率分母 | 研究市值 171965740000；股数基数 1366000000；收益率 5.40% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
+| 供应商quote FCF诊断 | 7831875072（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
 | 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age N/A / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-07-16；数据截至 2026-07-09；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=7def8d9ce67238b3 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T02:24:21+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:24:22+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:21.599；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=7def8d9ce67238b3 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:59:30+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:59:31+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:21.599；供应商发布时间 供应商未提供 |
 | 冻结假设 | 历史价格与报告日对齐的滚动TTM EPS重建同口径PE；区间由已记录的动态制度/HDI选择器决定 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 可参与估值评分/风险证据，但不能单独触发交易 | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
-| 已知限制 | 当前供应商历史仍不等于完整as-reported fundamental vintage；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间 | — | fail-closed说明 | 本次清单 |
+| 已知限制 | TTM operating cash flow minus capital expenditures; finance-lease principal not deducted；provider statement-period labels; issuer-specific FCF may deduct finance-lease principal；当前供应商历史仍不等于完整as-reported fundamental vintage；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间 | — | fail-closed说明 | 本次清单 |
 
 
 ### 估值区间计算明细
@@ -105,10 +108,10 @@
 | 视角 | 价格/倍数 | 备注 |
 | --- | --- | --- |
 | **核心常态区（成熟当前制度 HDI 85%）** | **$134.34 — $172.95** | PE 16.1-20.7x，中位 $152.15；样本起点 2023-08-25，163 周样本，置信度 HIGH；相对前制度中枢下移 20% |
-| Forward EPS核心区（高侧校验） | $143.43 — $184.65 | 同一核心倍数 × Forward EPS $8.93（22位分析师）；只防止过早判高估，不增加低估/BUY分数 |
-| **动态高估警戒线** | **>$184.65** | 当前制度加权85分位扩展上沿与可靠Forward EPS核心上沿取较高者；超过后仍需结合盈利下修、趋势或阻力共振，不能单独结构失效风险复核 |
+| Forward EPS核心区（高侧校验） | $143.38 — $184.59 | 同一核心倍数 × Forward EPS $8.92（22位分析师）；只防止过早判高估，不增加低估/BUY分数 |
+| **动态高估警戒线** | **>$184.59** | 当前制度加权85分位扩展上沿与可靠Forward EPS核心上沿取较高者；超过后仍需结合盈利下修、趋势或阻力共振，不能单独结构失效风险复核 |
 | 五年 p10-p90（历史背景） | $140.73 — $200.54 | PE 16.8-24.0x；不直接覆盖主算法 |
-| 数据商Forward PE（口径对照） | 当前 **14.1x** | 现价 $125.89 ÷ Forward EPS $8.93；通常接近下一财年口径，只用于和外部Forward PE比较，不替代主估值锚 |
+| 数据商Forward PE（口径对照） | 当前 **14.1x** | 现价 $125.89 ÷ Forward EPS $8.92；通常接近下一财年口径，只用于和外部Forward PE比较，不替代主估值锚 |
 | 未来1年（分析师前瞻） | $151.45 — $171.54 | 增速 +4.7%/年 → 🟢 远期明显低估 |
 
 > 估值锚由程序动态选择：已检测到持续且样本成熟的新估值制度，使用当前制度HDI核心区。HDI表示最常交易的核心区，p10-p90表示较完整的历史常态跨度；两者不再共同充当机械卖出上限。价格区间乘 TTM EPS $8.36。未来1年/增长锚的增速来源：分析师前瞻共识（yfinance），仅供方向。
@@ -173,9 +176,9 @@
 | 维度 | 当前状态 | 解读 |
 | --- | --- | --- |
 | 分析师EPS修正 | ⚪ **FLAT**（90日 -1.0%） | 上调支持中期重估；下调警惕价值陷阱 |
-| 基本面质量 | **HIGH**（88/100，operating_company） | FCF收益率 4.6%；经营利润率 16.8%；ROE 51.5%；营收增长 +6.4%；盈利增长 +137.0% |
+| 基本面质量 | **HIGH**（88/100，operating_company） | TTM FCF（CFO−Capex）收益率 5.40%；经营利润率 16.8%；ROE 51.5%；营收增长 +6.4%；盈利增长 +137.0% |
 | 最相似同行 | **KO** PE 26.5x（营收+6.7%，经营率34.9%）；**MO** PE 12.1x（营收+1.2%，经营率76.4%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
-| 下次财报 | **2026-10-08（5天）** | 3天内强制观望；4–14天降级等待 |
+| 下次财报 | **2026-10-08（4天）** | 3天内强制观望；4–14天降级等待 |
 | 非财报事件 | ⚪ 手工事件表暂无附近记录 | 手工表不是完整市场日历；入场前仍需核查公司事件 |
 
 ---
@@ -301,7 +304,7 @@
 
 ## ⚡ 期权波动异常
 
-> IV Rank 80；ATM IV 37%。仅提示事件/波动风险，不提供方向，也不参与分类。
+> IV Rank 85；ATM IV 40%。仅提示事件/波动风险，不提供方向，也不参与分类。
 
 ## 🌐 环境与技术快照
 

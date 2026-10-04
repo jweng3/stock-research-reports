@@ -1,5 +1,5 @@
 # 每日简报 — US.QBTS
-**日期：2026-10-03 | 生成时间：2026-10-03 22:24 | 策略：2026.09.03-v43 (c5302440dd2fe946)**
+**日期：2026-10-04 | 生成时间：2026-10-04 17:59 | 策略：2026.09.03-v43 (be2014aaa406c633)**
 
 ## 🧭 第一页决策总览
 
@@ -37,7 +37,7 @@
 | --- | --- | --- |
 | K线形态 | 🔴 看跌抱线（阴抱阴） | Bearish bar opens above prior bar's high and closes below its low on ≥average volume — full-range engulf. |
 | 趋势 | 🔴 周线MACD（行情供应商） -0.815 | 均线结构 BEARISH；日线MACD（行情供应商） -0.041 |
-| 财报 | 🟢 2026-11-05 | 距今33天 |
+| 财报 | 🟢 2026-11-05 | 距今32天 |
 | 盈利预期 | 🟢 UP | 90日 +4.8% |
 | 大盘环境 | BULLISH | 市场环境背景 |
 
@@ -58,7 +58,7 @@
 | 🟡 | 入场支撑 | 最近HVN支撑 $11.19（无Fib共振，支撑偏弱） |
 | 🔴 | K线形态 | 🔴 **止盈信号** — 看跌抱线（阴抱阴）（1.3x量，量能偏弱） |
 | 🟡 | 相对强度 | 持续跑输（3月-31.9%/6月-6.6%/12-1月-44.3%） |
-| ✅ | 财报风险 | 安全，33天后（2026-11-05） |
+| ✅ | 财报风险 | 安全，32天后（2026-11-05） |
 | ✅ | 板块环境 | XLK 多头，板块顺风 |
 
 ## 🛑 当前风险：⚠️ 关注风险
@@ -89,22 +89,25 @@
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v6-price-basis-provenance:b9e66d7e0342` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:36d63fa4c1bc` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $15.77 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:24:50+00:00；供应商时间 2026-10-02 19:59:39.903 |
-| 当前主倍数 | PS 481.83x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T02:24:51+00:00；供应商时间 N/A |
+| 估值现价 | $15.77 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:59:57+00:00；供应商时间 2026-10-02 19:59:39.903 |
+| 当前主倍数 | PS 481.83x | ✅可用 | Yahoo quote info | NETWORK；本地观察 2026-10-04T21:59:59+00:00；供应商时间 N/A |
 | 主估值每股分母 | TTM Revenue/Share 0.0327 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | legacy_p10_p90 / LOW | ✅可用 | valuation_engine | 历史有效点 11 |
-| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 720.32h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-09-04T02:05:48+00:00；数据截至 2026-08-06；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=fb6ade74f6145a17 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T02:24:50+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ❌缺失 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:24:51+00:00；数据截至 N/A；供应商时间 2026-10-02 19:59:39.903；供应商发布时间 供应商未提供 |
+| TTM FCF分子 | -119755000 USD；CFO -110880000 − Capex 8875000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；原标签 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-04T21:59:58+00:00 |
+| FCF收益率分母 | 研究市值 5936624890；股数基数 376450532；收益率 -2.02% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
+| 供应商quote FCF诊断 | -73379872（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
+| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 739.90h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-09-04T02:05:48+00:00；数据截至 2026-08-06；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=fb6ade74f6145a17 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:59:58+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ❌缺失 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:59:59+00:00；数据截至 N/A；供应商时间 2026-10-02 19:59:39.903；供应商发布时间 供应商未提供 |
 | P/S历史倍数 | CACHE; cache FRESH; age N/A / TTL 85d; fallback legacy_cache_missing_as_of_date | ⚠️部分 | Yahoo fundamentals-timeseries | 本地观察 2026-07-16；数据截至 N/A；供应商时间 N/A；供应商发布时间 供应商未提供 |
 | 冻结假设 | 仅使用估值引擎已选择且可显示的当前倍数/价格锚 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
-| 已知限制 | 稀疏季度历史或业务适用性尚未达到决策级PIT要求；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；ps_multiple_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间 | — | fail-closed说明 | 本次清单 |
+| 已知限制 | TTM operating cash flow minus capital expenditures; finance-lease principal not deducted；provider statement-period labels; issuer-specific FCF may deduct finance-lease principal；稀疏季度历史或业务适用性尚未达到决策级PIT要求；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；ps_multiple_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间 | — | fail-closed说明 | 本次清单 |
 
 
 ### 估值区间计算明细
@@ -175,10 +178,10 @@
 | 维度 | 当前状态 | 解读 |
 | --- | --- | --- |
 | 分析师EPS修正 | 🟢 **UP**（90日 +4.8%） | 上调支持中期重估；下调警惕价值陷阱 |
-| 基本面质量 | **LOW**（33/100，operating_company） | FCF收益率 -1.2%；经营利润率 -1732.1%；ROE -28.0%；营收增长 -0.6% |
+| 基本面质量 | **LOW**（33/100，operating_company） | TTM FCF（CFO−Capex）收益率 -2.02%；经营利润率 -1732.1%；ROE -28.0%；营收增长 -0.6% |
 | 最相似同行 | **RGTI** PS 381.2x（营收+185.3%，经营率-546.2%）；**IONQ** PS 72.0x（营收+286.8%，经营率-408.2%） | 同行业/同业务类型优先；具名同行负责解释，统计结论看下一行 |
 | 同行统计估值 | **同行中相对昂贵**：PS 第 95 分位；较同行中位数 +1273.3%（n=9） | 细分行业优先 + 同板块相似公司补足；仅作报告参考，不参与买入评分 |
-| 下次财报 | **2026-11-05（33天）** | 3天内强制观望；4–14天降级等待 |
+| 下次财报 | **2026-11-05（32天）** | 3天内强制观望；4–14天降级等待 |
 | 非财报事件 | ⚪ 手工事件表暂无附近记录 | 手工表不是完整市场日历；入场前仍需核查公司事件 |
 | 持仓结构异常 | 空头占流通股 20.3% | 仅作背景，不单独触发买卖 |
 

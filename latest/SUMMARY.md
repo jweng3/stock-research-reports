@@ -1,4 +1,4 @@
-# 每日选股摘要 — 2026-10-03
+# 每日选股摘要 — 2026-10-04
 
 **大盘状态：** 🟢 偏强｜[SPY](stocks/SPY.md) 站上200日线，MACD为正｜广度：50日线上50% / 200日线上57%｜20日波动率10%
 
@@ -12,9 +12,9 @@
 
 **分析股票总数:** 77
 - 🟢 买入候选: 4 只
-- 🟡 观察等待: 40 只
+- 🟡 观察等待: 41 只
 - ⚠️ 财报观望: 0 只
-- 🔴 暂时回避: 33 只
+- 🔴 暂时回避: 32 只
 
 ---
 
@@ -103,8 +103,8 @@
 | **[CRWD](stocks/CRWD.md)** | RSI6+MACD 空头（顶部）观察 | 2026-09-23 → 2026-10-02（7根） | $262.49→$270.04 | $270.04 | 🟡 观察等待 |
 | **[CCL](stocks/CCL.md)** | RSI6 空头（顶部）观察 | 2026-09-29 → 2026-10-02（3根） | $25.11→$25.76 | $25.76 | 🟡 观察等待 |
 | **[UNH](stocks/UNH.md)** | MACD 多头（底部）观察 | 2026-09-23 → 2026-10-01（6根） | $371.29→$365.20 | $371.90 | 🟡 观察等待 |
+| **[MU](stocks/MU.md)** | MACD 空头（顶部）观察 | 2026-09-25 → 2026-10-01（4根） | $1082.28→$1097.39 | $1074.89 | 🟡 观察等待 |
 | **[UMAC](stocks/UMAC.md)** | MACD 多头（底部）观察 | 2026-09-23 → 2026-10-01（6根） | $22.69→$21.78 | $22.37 | 🔴 暂时回避 |
-| **[MU](stocks/MU.md)** | MACD 空头（顶部）观察 | 2026-09-25 → 2026-10-01（4根） | $1082.28→$1097.39 | $1074.89 | 🔴 暂时回避 |
 | **[SPCX](stocks/SPCX.md)** | MACD 空头（顶部）观察 | 2026-09-25 → 2026-09-30（3根） | $148.68→$150.86 | $158.96 | 🔴 暂时回避 |
 
 > 详细字段拆成窄表并重复股票/记录标识，避免长文字横向挤压。
@@ -128,8 +128,8 @@
 | **[CRWD](stocks/CRWD.md)** | 79.6→77.1 | +7.553→+3.304 | 临时候选；不参与评级 |
 | **[CCL](stocks/CCL.md)** | 82.5→79.3 | +0.646→+1.117 | 临时候选；不参与评级 |
 | **[UNH](stocks/UNH.md)** | 26.9→23.7 | -1.834→-0.779 | N=1微型确认；不参与评级 |
-| **[UMAC](stocks/UMAC.md)** | 41.4→32.3 | -0.165→-0.046 | N=1微型确认；不参与评级 |
 | **[MU](stocks/MU.md)** | 71.6→71.3 | +23.412→+11.604 | N=1微型确认；不参与评级 |
+| **[UMAC](stocks/UMAC.md)** | 41.4→32.3 | -0.165→-0.046 | N=1微型确认；不参与评级 |
 | **[SPCX](stocks/SPCX.md)** | 47.0→55.9 | -1.138→-1.343 | N=1微型确认；不参与评级 |
 
 
@@ -209,11 +209,12 @@
 | [CCL](stocks/CCL.md) | BEARISH | $25.76 | 63.6 | 5% | 💎⏳ PE当前估值制度 5 分位；尚未出现锤头/早晨之星/看涨抱线等合格止跌 |
 | [ADBE](stocks/ADBE.md) | PULLBACK_ENTRY | $237.69 | 41.0 | 0% | 💎⏳ PE当前估值制度 0 分位；尚未出现锤头/早晨之星/看涨抱线等合格止跌 |
 
-### 🔭 Forward价值观察 (1 只) — 高增长公司低于概率加权价值观察线；仅研究，不是BUY信号
+### 🔭 Forward价值观察 (2 只) — 高增长公司低于概率加权价值观察线；仅研究，不是BUY信号
 
 | 股票 | 信号 | 现价 | RSI | 估值百分位 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| [APP](stocks/APP.md) | BEARISH | $268.22 | 28.4 | 仅参考 | Forward观察线 $281.49；当前折价23.8% |
+| [APP](stocks/APP.md) | BEARISH | $268.22 | 28.4 | 仅参考 | Forward观察线 $281.52；当前折价23.8% |
+| [MU](stocks/MU.md) | BEARISH | $1074.89 | 59.3 | 仅参考 | Forward观察线 $1298.65；当前折价33.8% |
 
 ### 🔵 结构待修 (9 只) — 板块/趋势出问题，暂时回避
 
@@ -233,7 +234,7 @@
 
 ## 🔴 暂时回避
 
-- **趋势向下（31）**：[SPY](stocks/SPY.md), [AVGO](stocks/AVGO.md), [TMF](stocks/TMF.md), [VST](stocks/VST.md), [AMZN](stocks/AMZN.md), [GOOG](stocks/GOOG.md), [AMBA](stocks/AMBA.md), [UMAC](stocks/UMAC.md), [ROBO](stocks/ROBO.md), [BOTZ](stocks/BOTZ.md), [ECHO](stocks/ECHO.md), [IBM](stocks/IBM.md), [SOXX](stocks/SOXX.md), [MU](stocks/MU.md), [SNDK](stocks/SNDK.md), [MO](stocks/MO.md), [AAL](stocks/AAL.md), [RKLB](stocks/RKLB.md), [KO](stocks/KO.md), [NCLH](stocks/NCLH.md), [UAL](stocks/UAL.md), [MRVL](stocks/MRVL.md), [TOL](stocks/TOL.md), [LLY](stocks/LLY.md), [RGTI](stocks/RGTI.md), [QBTS](stocks/QBTS.md), [IONQ](stocks/IONQ.md), [INTC](stocks/INTC.md), [TLT](stocks/TLT.md), [QQQ](stocks/QQQ.md), [VOO](stocks/VOO.md)
+- **趋势向下（30）**：[SPY](stocks/SPY.md), [AVGO](stocks/AVGO.md), [TMF](stocks/TMF.md), [VST](stocks/VST.md), [AMZN](stocks/AMZN.md), [GOOG](stocks/GOOG.md), [AMBA](stocks/AMBA.md), [UMAC](stocks/UMAC.md), [ROBO](stocks/ROBO.md), [BOTZ](stocks/BOTZ.md), [ECHO](stocks/ECHO.md), [IBM](stocks/IBM.md), [SOXX](stocks/SOXX.md), [SNDK](stocks/SNDK.md), [MO](stocks/MO.md), [AAL](stocks/AAL.md), [RKLB](stocks/RKLB.md), [KO](stocks/KO.md), [NCLH](stocks/NCLH.md), [UAL](stocks/UAL.md), [MRVL](stocks/MRVL.md), [TOL](stocks/TOL.md), [LLY](stocks/LLY.md), [RGTI](stocks/RGTI.md), [QBTS](stocks/QBTS.md), [IONQ](stocks/IONQ.md), [INTC](stocks/INTC.md), [TLT](stocks/TLT.md), [QQQ](stocks/QQQ.md), [VOO](stocks/VOO.md)
 - **信号混乱（2）**：[SPCX](stocks/SPCX.md), [CBRS](stocks/CBRS.md)
 
 **仍值得研究的例外（便宜/止跌/背离，但趋势尚未修复）：**

@@ -1,5 +1,5 @@
 # 每日简报 — US.FUTU
-**日期：2026-10-03 | 生成时间：2026-10-03 22:23 | 策略：2026.09.03-v43 (c5302440dd2fe946)**
+**日期：2026-10-04 | 生成时间：2026-10-04 17:58 | 策略：2026.09.03-v43 (be2014aaa406c633)**
 
 ## 🧭 第一页决策总览
 
@@ -16,7 +16,7 @@
 
 | 主估值指标 | 当前倍数 | 本次使用的倍数范围 | 对应价格范围 | 当前定位 |
 | --- | --- | --- | --- | --- |
-| **P/B+ROE** | P/B **3.0x** | P/B **2.7–5.4x** | **$94.69–$193.26** | ⚪ 位于报告参考区间中枢下方 |
+| **P/B+ROE** | P/B **2.9x** | P/B **2.7–5.4x** | **$94.67–$193.22** | ⚪ 位于报告参考区间中枢下方 |
 
 > **为什么用这个指标**：银行/保险等资产负债表型业务优先使用P/B，并以ROE 30.5%校验资本回报；P/B历史达到报告门槛。详细样本、HDI/p10-p90、Forward与PEG计算见后文。
 
@@ -38,7 +38,7 @@
 | 信号 | 当前状态 | 最关键的信息 |
 | --- | --- | --- |
 | 趋势 | 🟢 周线MACD（行情供应商） +3.886 | 均线结构 BEARISH；日线MACD（行情供应商） -2.160 |
-| 财报 | 🟢 2026-11-17 | 距今45天 |
+| 财报 | 🟢 2026-11-17 | 距今44天 |
 | 盈利预期 | 🟢 STRONG_UP | 90日 +6.0% |
 | 大盘环境 | BULLISH | 市场环境背景 |
 
@@ -89,26 +89,26 @@
 | 核心项目 | 结果 | 说明 |
 | --- | --- | --- |
 | 自动选择的主指标 | **P/B+ROE** | 银行/保险等资产负债表型业务优先使用P/B，并以ROE 30.5%校验资本回报；P/B历史达到报告门槛 |
-| 当前主指标值 | P/B **3.0x** | 当前主指标值 |
-| 核心常态倍数区间 | P/B **2.7–5.4x**（对应价格 **$94.69–$193.26**） | 当前模型采用的历史核心常态倍数带 |
-| 区间中枢 | P/B **3.8x** / **$134.13** | 用于定位，不等于精确目标价 |
+| 当前主指标值 | P/B **2.9x** | 当前主指标值 |
+| 核心常态倍数区间 | P/B **2.7–5.4x**（对应价格 **$94.67–$193.22**） | 当前模型采用的历史核心常态倍数带 |
+| 区间中枢 | P/B **3.8x** / **$134.11** | 用于定位，不等于精确目标价 |
 | 当前所处位置 | **⚪ 位于报告参考区间中枢下方** | 当前价 $102.17 |
 | 置信度与用途 | **低** | 仅作报告参考，不参与买入评分、深度价值或估值卖出 |
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v6-price-basis-provenance:9619c78983e6` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:b20188436ba0` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $102.17 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:23:42+00:00；供应商时间 2026-10-02 19:58:37.959 |
-| 当前主倍数 | PB 2.98x | ✅可用 | Yahoo quote info via fundamental_quality snapshot | QUALITY_SNAPSHOT；本地观察 2026-10-01T23:52:38+00:00；供应商时间 N/A |
-| 主估值每股分母 | Book Value/Share 35.7133 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
+| 估值现价 | $102.17 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:58:49+00:00；供应商时间 2026-10-02 19:58:37.959 |
+| 当前主倍数 | PB 2.86x | ✅可用 | Yahoo quote info via fundamental_quality snapshot | QUALITY_SNAPSHOT；本地观察 2026-10-04T21:58:50+00:00；供应商时间 N/A |
+| 主估值每股分母 | Book Value/Share 35.7068 | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 区间身份 | legacy_p10_p90 / LOW | ✅可用 | valuation_engine | 历史有效点 12 |
-| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 479.46h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-09-14T02:55:57+00:00；数据截至 2026-08-20；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=d972d2a4fd66c7e9 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T02:23:43+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age 499.05h / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-09-14T02:55:57+00:00；数据截至 2026-08-20；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=d972d2a4fd66c7e9 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:58:51+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
 | P/B历史倍数 | CACHE; cache FRESH; age N/A / TTL 85d; fallback legacy_cache_missing_as_of_date | ⚠️部分 | Yahoo fundamentals-timeseries | 本地观察 2026-07-25；数据截至 N/A；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:23:43+00:00；数据截至 N/A；供应商时间 2026-10-02 19:58:37.959；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:58:51+00:00；数据截至 N/A；供应商时间 2026-10-02 19:58:37.959；供应商发布时间 供应商未提供 |
 | 冻结假设 | 仅使用估值引擎已选择且可显示的当前倍数/价格锚 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
@@ -119,7 +119,7 @@
 
 | 视角 | 价格/倍数 | 备注 |
 | --- | --- | --- |
-| **核心常态区（PB历史 p10-p90）** | **$94.69 — $193.26** | PB 2.7-5.4x，中位 $134.13 |
+| **核心常态区（PB历史 p10-p90）** | **$94.67 — $193.22** | PB 2.7-5.4x，中位 $134.11 |
 
 > P/B+ROE框架只用于银行、保险等资产负债表型金融企业：P/B历史区间乘当前每股净资产，并要求ROE为正后才形成价格参考。当前TTM Book Value/Share $35.71；季度样本稀疏且尚无PIT回放，只用于报告定位，不参与买入评分或估值卖出提示。
 
@@ -184,8 +184,8 @@
 | --- | --- | --- |
 | 分析师EPS修正 | 🟢 **STRONG_UP**（90日 +6.0%） | 上调支持中期重估；下调警惕价值陷阱 |
 | 基本面质量 | **HIGH**（100/100，financial） | 经营利润率 66.7%；ROE 30.5%；营收增长 +35.6%；盈利增长 +43.0% |
-| 最相似同行 | **HOOD** PB 10.5x（营收+32.3%，经营率43.9%）；**CRCL** PB 6.0x（营收+6.6%，经营率4.9%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
-| 下次财报 | **2026-11-17（45天）** | 3天内强制观望；4–14天降级等待 |
+| 最相似同行 | **HOOD** PB 10.7x（营收+32.3%，经营率43.9%）；**CRCL** PB 5.8x（营收+6.6%，经营率4.9%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
+| 下次财报 | **2026-11-17（44天）** | 3天内强制观望；4–14天降级等待 |
 | 非财报事件 | ⚪ 手工事件表暂无附近记录 | 手工表不是完整市场日历；入场前仍需核查公司事件 |
 
 ---

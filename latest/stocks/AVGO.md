@@ -1,5 +1,5 @@
 # 每日简报 — US.AVGO
-**日期：2026-10-03 | 生成时间：2026-10-03 22:18 | 策略：2026.09.03-v43 (c5302440dd2fe946)**
+**日期：2026-10-04 | 生成时间：2026-10-04 17:53 | 策略：2026.09.03-v43 (be2014aaa406c633)**
 
 ## 🧭 第一页决策总览
 
@@ -14,7 +14,7 @@
 
 | 主估值指标 | 当前倍数 | 本次使用的倍数范围 | 对应价格范围 | 当前定位 |
 | --- | --- | --- | --- | --- |
-| **Forward PE（NTM EPS）** | Forward PE **19.0x** | Forward PE **16.1–25.6x** | **$273.07–$551.35** | 🟢 位于压力—基准情景之间；警戒 >$479.39 |
+| **Forward PE（NTM EPS）** | Forward PE **18.9x** | Forward PE **16.1–25.5x** | **$272.96–$551.35** | 🟢 位于压力—基准情景之间；警戒 >$479.39 |
 
 > **为什么用这个指标**：高增长转型（分析师增长40.0%、营收增长85.5%、盈利增长215.3%、TTM EPS同比39.2%）；历史TTM PE受盈利分母滞后影响，自动切换为分析师EPS日历化后的Forward PE三情景。详细样本、HDI/p10-p90、Forward与PEG计算见后文。
 
@@ -38,7 +38,7 @@
 | --- | --- | --- |
 | 短线顶部背离观察 | 🔎 不参与评级 | MACD观察：收盘高点 $352.81（2026-09-25）→$355.14（2026-10-02），相隔5根日K；RSI6 46.0→54.0↑；RSI12未同步、RSI24未同步；MACD柱（行情供应商）+2.436→+1.920；最新K线仍属临时候选，未满足正式背离的N=4和至少8根间隔；仅作短线动能提示，不参与评级、加仓或止盈 |
 | 趋势 | 🔴 周线MACD（行情供应商） -12.447 | 均线结构 BEARISH；日线MACD（行情供应商） +1.920 |
-| 财报 | 🟢 2026-12-09 | 距今67天 |
+| 财报 | 🟢 2026-12-09 | 距今66天 |
 | 大盘环境 | BULLISH | 市场环境背景 |
 
 ## 📚 完整研究明细
@@ -56,7 +56,7 @@
 | ❌ | 技术对齐 | BEARISH — 周线MACD空头（-12.4468），结构性下行趋势 |
 | ❌ | 均线结构 | 价格低于200MA（$366.26），且 **200MA 已下行**（-0.5%/月） — 趋势走弱 |
 | 🟡 | 入场支撑 | 最近HVN支撑 $353.57（无Fib共振，支撑偏弱） |
-| ✅ | 财报风险 | 安全，67天后（2026-12-09） |
+| ✅ | 财报风险 | 安全，66天后（2026-12-09） |
 | ✅ | 板块环境 | XLK 多头，板块顺风 |
 
 ## ⛔ 重新评估条件
@@ -72,34 +72,39 @@
 | 核心项目 | 结果 | 说明 |
 | --- | --- | --- |
 | 自动选择的主指标 | **Forward PE（NTM EPS）** | 高增长转型（分析师增长40.0%、营收增长85.5%、盈利增长215.3%、TTM EPS同比39.2%）；历史TTM PE受盈利分母滞后影响，自动切换为分析师EPS日历化后的Forward PE三情景 |
-| 当前主指标值 | Forward PE **19.0x** | 现价 ÷ 日历化NTM EPS $18.72 |
-| 核心常态倍数区间 | 情景跨度：Forward PE **16.1–25.6x**（对应价格 **$273.07–$551.35**） | 压力至乐观情景；下沿不是常态合理价，也不是deep value门槛 |
+| 当前主指标值 | Forward PE **18.9x** | 现价 ÷ 日历化NTM EPS $18.78 |
+| 核心常态倍数区间 | 情景跨度：Forward PE **16.1–25.5x**（对应价格 **$272.96–$551.35**） | 压力至乐观情景；下沿不是常态合理价，也不是deep value门槛 |
 | 动态高估警戒线 | **$479.39**（高于现价 35.0%） | 当前制度加权85分位扩展上沿；越线不能单独触发卖出，仍需其他风险证据共振 |
-| 区间中枢 | Forward PE **24.6x** / **$460.72** | 用于定位，不等于精确目标价 |
+| 区间中枢 | Forward PE **23.3x** / **$438.13** | 用于定位，不等于精确目标价 |
 | 当前所处位置 | **🟢 位于压力—基准情景之间** | 当前价 $355.14 |
 | 置信度与用途 | **中** | 仅作报告及Forward价值研究分类，不参与BUY、传统deep value或估值卖出 |
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v6-price-basis-provenance:e9a185b6d730` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v7-fiscal-calendar-ttm-fcf:21ea6b70e328` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $355.14 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:18:45+00:00；供应商时间 2026-10-02 20:02:21.783 |
-| 当前主倍数 | Forward PE 18.98x | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 与本次现价及已冻结分母对齐 |
-| 主估值每股分母 | 日历化NTM EPS 18.7160 | 🧮估算 | Yahoo earnings_estimate calendarized 0y/+1y | 按估值结果所记录口径 |
-| 区间身份 | forward_eps_scenario_v2_normalized / MEDIUM | ✅可用 | valuation_engine | 历史有效点 1253 |
-| Forward FY1 / FY2 EPS | 11.6576 / 19.3938 | 🧮估算 | Yahoo earnings_estimate calendarized 0y/+1y | 财政年末 2026-11-02；结构化报表截至 2026-07-31 |
-| Forward数据时效与路径 | CACHE; cache FRESH; age 50.53h / TTL 7d; fallback 无 | ✅可用 | Yahoo earnings_estimate calendarized 0y/+1y | 本地首次观察 2026-10-01T23:47:11+00:00；供应商发布时间 供应商未提供 |
-| 压力/基准/乐观价 | $273.07 / $460.72 / $551.35 | 🧮估算 | EPS情景 × Forward PE情景 | 本次报告快照 |
+| 估值现价 | $355.14 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:53:54+00:00；供应商时间 2026-10-02 20:02:21.783 |
+| 当前主倍数 | Forward PE 18.91x | ✅可用 | 估值引擎已冻结结果（上游provider未单列） | 与本次现价及已冻结分母对齐 |
+| 主估值每股分母 | 日历化NTM EPS 18.7792 | 🧮估算 | Yahoo earnings_estimate calendarized 0y/+1y | 按估值结果所记录口径 |
+| 区间身份 | forward_eps_scenario_v3_fiscal_calendar_ttm_fcf / MEDIUM | ✅可用 | valuation_engine | 历史有效点 1253 |
+| TTM FCF分子 | 39403000000 USD；CFO 40653000000 − Capex 1250000000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-10-31, 2026-01-31, 2026-04-30, 2026-07-31；原标签 2025-10-31, 2026-01-31, 2026-04-30, 2026-07-31；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-04T21:53:55+00:00 |
+| FCF收益率分母 | 研究市值 1695306910256；股数基数 4773629865；收益率 2.32% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
+| 供应商quote FCF诊断 | 30596499456（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
+| Forward FY1 / FY2 EPS | 11.6576 / 19.3938 | 🧮估算 | Yahoo earnings_estimate calendarized 0y/+1y | 财政年末 2026-11-02；结构化报表期末 2026-07-31（日期映射见财年审计） |
+| Forward数据时效与路径 | NETWORK; cache FRESH; age 0.00h / TTL 7d; fallback cache_rejected:stale forward-consensus schema | ✅可用 | Yahoo earnings_estimate calendarized 0y/+1y | 本地首次观察 2026-10-04T21:53:59+00:00；供应商发布时间 供应商未提供 |
+| 压力/基准/乐观价 | $272.96 / $438.13 / $551.35 | 🧮估算 | EPS情景 × Forward PE情景 | 本次报告快照 |
 | EPS正常化 | NONE; 调整 0.0000 | ✅可用 | N/A | 2026-06-03 |
-| 季度EPS/TTM EPS历史 | NETWORK_REFRESH; cache FRESH; age 0.00h / TTL 85d; fallback pending_eps_required_full_refresh | ⚠️部分 | Yahoo get_earnings_dates | 本地观察 2026-10-04T02:18:47+00:00；数据截至 2026-06-03；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=b3710839cd2d7db2 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T02:18:48+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T02:18:49+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:21.783；供应商发布时间 供应商未提供 |
-| 冻结假设 | 压力/基准/乐观权重固定为25%/50%/25%；Forward价值观察线使用20%安全边际；反向DCF只作压力测试：5年显性期，要求回报率 10.0%，永续增长 3.5% | — | valuation audit manifest | 本次清单 |
+| 财年日历与NTM系数 | 2025-11-02 → 2026-11-02；FY1/FY2 365/365天；系数 0.079452/0.920548 | 🧮估算 | PROVIDER_DATE；Yahoo info.nextFiscalYearEnd (unverified calendar) | 计算日 2026-10-04；供应商原日期 2026-11-02 |
+| 反向DCF基期 | 年度FCF 39403000000；每股FCF 8.2543 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 供应商期间标签 2025-10-31, 2026-01-31, 2026-04-30, 2026-07-31 |
+| 季度EPS/TTM EPS历史 | NETWORK_REFRESH; cache FRESH; age 0.00h / TTL 85d; fallback pending_eps_required_full_refresh | ⚠️部分 | Yahoo get_earnings_dates | 本地观察 2026-10-04T21:53:56+00:00；数据截至 2026-06-03；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | NETWORK_REFRESH_NO_NEW_BARS; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=b3710839cd2d7db2 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-04T21:53:57+00:00；数据截至 2026-10-02；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-04T21:53:59+00:00；数据截至 N/A；供应商时间 2026-10-02 20:02:21.783；供应商发布时间 供应商未提供 |
+| 冻结假设 | NTM采用年度EPS日均率按实际财年天数拼接未来一年；53周财年系数不强制和为1，未模拟季度季节性；压力/基准/乐观权重固定为25%/50%/25%；Forward价值观察线使用20%安全边际；反向DCF只作压力测试：5年显性期，要求回报率 10.0%，永续增长 3.5% | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限 | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
-| 已知限制 | 分析师估计缺少完整dated revision历史，不能回填为PIT买卖证据；Yahoo端点未提供估计revision发布时间；本地observed_at只证明首次观察时间，不等于publication time；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；结构化季度利润表已覆盖最新已公布财报 | — | fail-closed说明 | 本次清单 |
+| 已知限制 | TTM operating cash flow minus capital expenditures; finance-lease principal not deducted；provider statement-period labels; issuer-specific FCF may deduct finance-lease principal；分析师估计缺少完整dated revision历史，不能回填为PIT买卖证据；Yahoo端点未提供估计revision发布时间；本地observed_at只证明首次观察时间，不等于publication time；ttm_eps_history没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；historical_price_series虽已显式声明复权口径，但未冻结公司行动账本和factor vintage；它是当前供应商坐标，不是历史时点原始可成交价格；vendor_current_pe没有独立provider publication timestamp；cache observed-at与data-through不能冒充发布时间；结构化季度利润表已覆盖最新已公布财报 | — | fail-closed说明 | 本次清单 |
 
 
 ### Forward PE估值情景明细
@@ -107,20 +112,21 @@
 | 视角 | 价格/倍数 | 计算与约束 |
 | --- | --- | --- |
 | 当前同口径 TTM PE | **43.7x** | 现价 ÷ 同一套TTM EPS $8.13；数据商PE 45.3x，与同口径相差-3.6%，不用于历史分位 |
-| 当前 Forward PE | **19.0x** | 现价 ÷ 日历化NTM EPS $18.72；48位分析师 |
-| 🐻 压力情景（谨慎） | **$273.07** | EPS $16.93 × Forward PE 16.1x；对应市值 $1.30万亿 |
-| 🎯 基准情景 | **$460.72** | EPS $18.72 × Forward PE 24.6x；对应市值 $2.20万亿 |
-| 🚀 乐观情景 | **$551.35** | EPS $21.52 × Forward PE 25.6x；对应市值 $2.63万亿 |
-| 概率加权中心 | **$436.47** | 压力/基准/乐观按25%/50%/25%加权；用于研究，不是精确目标价 |
-| Forward价值观察线 | **$349.17** （尚未达到） | 概率加权中心再留20%安全边际；当前相对加权中心折价18.6%；还要求≥10位分析师且EPS预期未显著下修；只决定研究文件夹，不产生BUY权 |
+| 当前 Forward PE | **18.9x** | 现价 ÷ 日历化NTM EPS $18.78；48位分析师 |
+| 🐻 压力情景（谨慎） | **$272.96** | EPS $16.98 × Forward PE 16.1x；对应市值 $1.30万亿 |
+| 🎯 基准情景 | **$438.13** | EPS $18.78 × Forward PE 23.3x；对应市值 $2.09万亿 |
+| 🚀 乐观情景 | **$551.35** | EPS $21.60 × Forward PE 25.5x；对应市值 $2.63万亿 |
+| 概率加权中心 | **$425.14** | 压力/基准/乐观按25%/50%/25%加权；用于研究，不是精确目标价 |
+| Forward价值观察线 | **$340.11** （尚未达到） | 概率加权中心再留20%安全边际；当前相对加权中心折价16.5%；还要求≥10位分析师且EPS预期未显著下修；只决定研究文件夹，不产生BUY权 |
 | 历史TTM PE背景 | 31.9–59.0x | 过去曾经交易到，不是当前合理价上/下限，不参与目标价 |
 | 最近52周TTM PE背景 | 46.0–55.2x （中位48.8x） | 同样只作Trailing PE观察 |
-| 可比公司Forward PE | 38.5–46.2x （中位42.0x，n=7） | industry+sector_similarity；用于倍数护栏，不单独决定目标价 |
-| 反向DCF压力测试 | 当前价隐含未来5年FCF年增约 **35.8%**；乐观价需要约48.9% | 折现率10.0%、永续增长3.5%；敏感性高，仅作可行性检查 |
+| 可比公司Forward PE | 数据不足（n=1） | 少于5家不伪造同行上限；后续随本地快照积累 |
+| 反向DCF压力测试 | 当前价隐含未来5年FCF年增约 **28.6%**；乐观价需要约41.2% | 折现率10.0%、永续增长3.5%；敏感性高，仅作可行性检查 |
+| 反向DCF基期 | TTM FCF $39.403B；每股FCF $8.2543 | 研究期间 2025-10-31, 2026-01-31, 2026-04-30, 2026-07-31（日期口径见审计）；CFO−Capex，未另扣融资租赁本金；与公司自定义FCF可能不同 |
 
-> EPS口径：FY1 EPS $11.66、FY2 EPS $19.39。按距财政年末时间权重日历化为NTM EPS。正常化EPS是估值分析口径，不替代公司披露的GAAP EPS。分析师low/high会收敛在共识±15%以内，避免单个极端预测支配区间。
+> EPS口径：FY1 EPS $11.66、FY2 EPS $19.39。按财年日均盈利率与实际天数日历化为NTM EPS（估算，不模拟季度季节性）。正常化EPS是估值分析口径，不替代公司披露的GAAP EPS。分析师low/high会收敛在共识±15%以内，避免单个极端预测支配区间。
 
-> 倍数护栏：大型公司增长按35%封顶进入倍数模型；乐观Forward PE不得超过当前1.35倍的重估护栏，并受7家Forward PE同行p75约束。历史TTM PE只负责说明市场曾怎样交易，不再自动变成合理价。Forward估值尚无完整PIT历史，因此当前只用于研究和持仓背景，只可能进入独立Forward价值观察，不参与BUY评分、传统深度价值通道或估值卖出。
+> 倍数护栏：大型公司增长按35%封顶进入倍数模型；乐观Forward PE不得超过当前1.35倍的重估护栏；Forward PE同行不足5家时不伪造同行上限。历史TTM PE只负责说明市场曾怎样交易，不再自动变成合理价。Forward估值尚无完整PIT历史，因此当前只用于研究和持仓背景，只可能进入独立Forward价值观察，不参与BUY评分、传统深度价值通道或估值卖出。
 
 ### 行情价格口径审计
 
@@ -182,9 +188,9 @@
 | 维度 | 当前状态 | 解读 |
 | --- | --- | --- |
 | 分析师EPS修正 | ⚪ **FLAT**（90日 +0.3%） | 上调支持中期重估；下调警惕价值陷阱 |
-| 基本面质量 | **HIGH**（90/100，operating_company） | FCF收益率 1.9%；经营利润率 54.3%；ROE 44.2%；营收增长 +85.5%；盈利增长 +215.3% |
-| 同行统计估值 | **Forward PE中位 42.0x** （p25–p75 38.5–46.2x，n=7） | 只用于三情景倍数护栏；Trailing PE同行不混入 |
-| 下次财报 | **2026-12-09（67天）** | 3天内强制观望；4–14天降级等待 |
+| 基本面质量 | **HIGH**（90/100，operating_company） | TTM FCF（CFO−Capex）收益率 2.32%；经营利润率 54.3%；ROE 44.2%；营收增长 +85.5%；盈利增长 +215.3% |
+| 同行统计估值 | **Forward PE样本不足**（n=1） | Trailing PE容易受盈利分母扭曲，不拿AVGO/AMD等Trailing倍数强行补足 |
+| 下次财报 | **2026-12-09（66天）** | 3天内强制观望；4–14天降级等待 |
 | 非财报事件 | ⚪ 手工事件表暂无附近记录 | 手工表不是完整市场日历；入场前仍需核查公司事件 |
 
 ---
