@@ -1,5 +1,5 @@
 # 每日简报 — US.FTNT
-**日期：2026-10-06 | 生成时间：2026-10-06 22:16 | 策略：2026.10.05-v46-issuer-eps-reconciliation (f29ed04edcf5ee74)**
+**日期：2026-10-07 | 生成时间：2026-10-07 22:10 | 策略：2026.10.05-v46-issuer-eps-reconciliation (3697231dd18c908e)**
 
 ## 🧭 第一页决策总览
 
@@ -7,15 +7,15 @@
 
 | 项目 | 当前状态 | 关键原因 |
 | --- | --- | --- |
-| 当前价格 | **$191.27** | US.FTNT的统一现价基准 |
-| 模型结论 | **🟡 观察等待** | 过热追高（日线 RSI 72 ≥ 70），等待 RSI 降温后再重新评估具体入场方案 |
-| 当前动作 | **等待升级条件，不生成订单** | 过热追高（日线 RSI 72 ≥ 70），等待 RSI 降温后再重新评估具体入场方案 |
+| 当前价格 | **$189.28** | US.FTNT的统一现价基准 |
+| 模型结论 | **🟡 观察等待** | 没有首仓 setup 通过独立审核：入场价未贴近 ★★★+ 行动核心 |
+| 当前动作 | **等待升级条件，不生成订单** | 没有首仓 setup 通过独立审核：入场价未贴近 ★★★+ 行动核心 |
 
 ### 对应使用的估值范围
 
 | 主估值指标 | 当前倍数 | 本次使用的倍数范围 | 对应价格范围 | 当前定位 |
 | --- | --- | --- | --- | --- |
-| **PE（发行人四季研究参考）** | FTNT GAAP PE **67.3x**；调整后PE **58.5x** | N/A | N/A | ⚪ 暂不能判断（缺少可靠价格区间） |
+| **PE（发行人四季研究参考）** | FTNT GAAP PE **66.6x**；调整后PE **57.9x** | N/A | N/A | ⚪ 暂不能判断（缺少可靠价格区间） |
 
 > **为什么用这个指标**：Reported EPS历史会计定义、币种/每股单位及调整一致性未核实；仅保留供应商序列背景，暂停合理价和决策评分。详细样本、HDI/p10-p90、Forward与PEG计算见后文。
 
@@ -25,18 +25,20 @@
 
 | 位置 | 区间/价格 | 方向/区域重要性 | 支撑或阻力怎么来的 | 当前意义 |
 | --- | --- | --- | --- | --- |
-| **现价** | **$191.27** | 当前价格 | — | 判断上下区间的统一基准 |
-| 下方 | **$180.34 - $185.84** | 支撑 · **区域重要性：⭐（弱）** | 波段拐点 · 周线波段高点；Swing High在这里 | 低于现价 2.8%；日线开盘或收盘低于 $180.3436 → 支撑失效 |
-| 下方 | **$159.80 - $161.84** | 支撑 · **区域重要性：⭐⭐（中）** | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） + 日线20MA $173.77 / 50MA $165.06（附近参考，不计分）；峰值 1.4× 同窗口平均；2026-08-27日线环比放量长阳核心$160 - $173；翻转后已确认支撑 | 低于现价 15.4%；途中可能反应，不单独加仓 |
-| 下方 | **$155.72 - $157.76** | 支撑 · **区域重要性：⭐（弱）** | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单）；峰值 1.3× 同窗口平均 | 低于现价 17.5%；途中可能反应，不单独加仓 |
-| 下方 | **$151.65 - $153.68** | 支撑 · **区域重要性：⭐（弱）** | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单）；峰值 1.2× 同窗口平均 | 低于现价 19.7%；途中可能反应，不单独加仓 |
+| **现价** | **$189.28** | 当前价格 | — | 判断上下区间的统一基准 |
+| 下方 | **$180.34 - $185.84** | 支撑 · **区域重要性：⭐（弱）** | 波段拐点 · 周线波段高点；Swing High在这里 | 低于现价 1.8%；日线开盘或收盘低于 $180.3436 → 支撑失效 |
+| 下方 | **$174.14 - $176.60** | 支撑 · **区域重要性：⭐（弱）** | 技术参考区 · 日线20MA $175.37 | 低于现价 6.7%；途中可能反应，不单独加仓 |
+| 下方 | **$159.80 - $161.84** | 支撑 · **区域重要性：⭐（弱）** | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） + 日线50MA $165.85（附近参考，不计分）；峰值 1.4× 同窗口平均；2026-08-27日线环比放量长阳核心$160 - $173；翻转后已确认支撑 | 低于现价 14.5%；途中可能反应，不单独加仓 |
+| 下方 | **$155.72 - $157.76** | 支撑 · **区域重要性：⭐（弱）** | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单）；峰值 1.3× 同窗口平均 | 低于现价 16.7%；途中可能反应，不单独加仓 |
+| 下方 | **$151.65 - $153.68** | 支撑 · **区域重要性：⭐（弱）** | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单）；峰值 1.2× 同窗口平均 | 低于现价 18.8%；途中可能反应，不单独加仓 |
 
 ### 当前有效信号与事件
 
 | 信号 | 当前状态 | 最关键的信息 |
 | --- | --- | --- |
-| 趋势 | 🟢 周线MACD（行情供应商） +0.155 | 均线结构 FULL_BULL；日线MACD（行情供应商） +2.330 |
-| 财报 | 🟢 2026-10-28（发行人已确认） | 距今22天 |
+| K线形态 | 🔴 平头顶部 | Two bars with matching highs — buyers rejected at the same level twice. |
+| 趋势 | 🟢 周线MACD（行情供应商） +0.155 | 均线结构 FULL_BULL；日线MACD（行情供应商） +2.449 |
+| 财报 | 🟢 2026-10-28（发行人已确认） | 距今21天 |
 | 盈利预期 | 🟢 STRONG_UP | 90日 +9.0% |
 | 大盘环境 | BULLISH | 市场环境背景 |
 
@@ -46,7 +48,7 @@
 
 ## 综合判定：🟡 观察等待
 
-> **过热追高（日线 RSI 72 ≥ 70），等待 RSI 降温后再重新评估具体入场方案**
+> **没有首仓 setup 通过独立审核：入场价未贴近 ★★★+ 行动核心**
 
 ### 分析依据
 
@@ -55,16 +57,7 @@
 | 🟡 | 盈亏比 | 没有通过审核的selected setup；旧候选路径仅作诊断，不展示为合格入场计划 |
 | 🟡 | 结构观察 | 当前没有选中首仓计划；支撑方向、强度及权限以统一关键区间表为准，原始HVN或Fib坐标不另行加星 |
 | ✅ | 技术对齐 | BULLISH — 日线+周线双多头，动能一致向上 |
-| ✅ | 均线结构 | 全线多头排列（Price>20MA$173.77>50MA$165.06>200MA$119.64；250MA$112.33另作长期参考，不参与此排列定义） |
-
-## 🛑 当前风险：⚠️ 观察风险
-
-> 模型风险等级：watch_risk；独立证据族 1 类（Top）。Technical/Candle/Divergence合并为Top，KDJ/Options不计票。两个观察类别即可形成风险共振，不能把每行的“关注”简单等同最终等级；这不是实际执行确认。
-
-| 类别 | 级别 | 详情 |
-| --- | --- | --- |
-| 📈 技术指标 | ⚠️ 关注 | 日+周 RSI 双超买 (日 72.2 / 周 74.0) — 双周期动能极度透支 |
-
+| ✅ | 均线结构 | 全线多头排列（Price>20MA$175.37>50MA$165.85>200MA$120.19；250MA$112.74另作长期参考，不参与此排列定义） |
 
 ## ⏳ 当前动作
 
@@ -73,7 +66,7 @@
 ## 发行人逐季EPS核对
 
 **FTNT · US_GAAP · CONSOLIDATED · USD/DILUTED_COMMON_SHARE**
-状态：REVIEWED_CURRENT_WINDOW；本地核实2026-10-05；证据178039c47b9fbdac。
+状态：REVIEWED_CURRENT_WINDOW；本地核实2026-10-05；证据313a3772346faebe。
 
 | 财报期末 | 发行人披露日 | GAAP稀释EPS | 调整后EPS | 调整净差额 | 来源 |
 | --- | --- | --- | --- | --- | --- |
@@ -87,7 +80,7 @@
 
 GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。
 
-以本次**FTNT**研究价 191.27 USD 计算：GAAP参考PE **67.35x**；公司调整后参考PE **58.49x**。只解释当前分母，不恢复旧历史分位、合理价或交易权限。
+以本次**FTNT**研究价 189.28 USD 计算：GAAP参考PE **66.65x**；公司调整后参考PE **57.88x**。只解释当前分母，不恢复旧历史分位、合理价或交易权限。
 
 - 2025-09-30：供应商事件 2025-11-05 / EPS 0.7400；ISSUER_NON_GAAP_DILUTED；日期状态 MATCH。
 - 2025-12-31：供应商事件 2026-02-05 / EPS 0.8100；ISSUER_NON_GAAP_DILUTED；日期状态 MATCH。
@@ -100,35 +93,35 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 | 核心项目 | 结果 | 说明 |
 | --- | --- | --- |
 | 自动选择的主指标 | **PE（发行人四季研究参考）** | Reported EPS历史会计定义、币种/每股单位及调整一致性未核实；仅保留供应商序列背景，暂停合理价和决策评分 |
-| 当前主指标值 | FTNT GAAP PE **67.3x**；调整后PE **58.5x** | 发行人逐季稀释EPS求和；旧供应商分布不用于该分母，详细调节表见发行人核对 |
+| 当前主指标值 | FTNT GAAP PE **66.6x**；调整后PE **57.9x** | 发行人逐季稀释EPS求和；旧供应商分布不用于该分母，详细调节表见发行人核对 |
 | 核心常态倍数区间 | N/A | 数据或业务适用性不足，不生成伪精确区间 |
 | 区间中枢 | N/A / N/A | 用于定位，不等于精确目标价 |
-| 当前所处位置 | **⚪ 暂不能判断（缺少可靠价格区间）** | 当前价 $191.27 |
+| 当前所处位置 | **⚪ 暂不能判断（缺少可靠价格区间）** | 当前价 $189.28 |
 | 置信度与用途 | **发行人当前四季已核实；历史不可评定** | 仅作报告参考，不参与买入评分、深度价值或估值卖出 |
 
 ### 估值输入与假设审计
 
-> 清单 `valuation-input-audit-v10-issuer-quarter-evidence:dec16f0458c4` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
+> 清单 `valuation-input-audit-v10-issuer-quarter-evidence:317800a995ba` 固定本次报告实际消费的输入；状态：**⚠️ 部分输入/覆盖不足**。相同代码不保证不同日期输入具有相同哈希。
 
 | 输入 | 本次值 | 状态 | 来源/公式身份 | 时间口径 |
 | --- | --- | --- | --- | --- |
-| 估值现价 | $191.27 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-07T02:16:33+00:00；供应商时间 2026-10-06 22:16:08.471 |
-| 旧供应商倍数（仅诊断） | PE 58.49x | ⚠️部分 | valuation_engine: current price / reconstructed TTM EPS | DERIVED_SAME_BASIS；本地观察 2026-10-07T02:16:34+00:00；供应商时间 2026-10-06 22:16:08.471 |
+| 估值现价 | $189.28 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-08T02:10:32+00:00；供应商时间 2026-10-07 21:22:38.203 |
+| 旧供应商倍数（仅诊断） | PE 57.88x | ⚠️部分 | valuation_engine: current price / reconstructed TTM EPS | DERIVED_SAME_BASIS；本地观察 2026-10-08T02:10:33+00:00；供应商时间 2026-10-07 21:22:38.203 |
 | 旧Reported EPS分母（仅诊断） | TTM EPS 3.2700 | ⚠️部分 | 估值引擎已冻结结果（上游provider未单列） | 按估值结果所记录口径 |
 | 旧分布身份（不能认证会计口径） | regime_weighted_hdi / HIGH | ⚠️部分 | valuation_engine | 历史有效点 1252 |
 | EPS会计身份 | YAHOO_REPORTED_EPS_UNVERIFIED_GAAP | ⚠️部分 | Yahoo get_earnings_dates / Reported EPS | Reported EPS为供应商口径；GAAP/调整后定义及历史调整一致性未独立核实，不能将差异直接解释为算术错误；发行人逐季GAAP/调整后对账另列，旧供应商历史未取得同口径证明，不续用旧分位作价格锚 |
 | TTM EPS四季组成（披露日标签） | 2025-11-05: 0.7400；2026-02-05: 0.8100；2026-05-06: 0.8200；2026-07-29: 0.9000 | ✅可用 | 实际进入本次TTM求和的Reported EPS；不是GAAP调节表 | 披露日不等于报告期末，原始调整定义仍需发行人核实 |
 | 报表稀释EPS核对（独立序列） | {"basis": "PROVIDER_STATEMENT_DILUTED_EPS", "currency": "USD", "data_through": "2026-06-30", "historical_accounting_consistency": "UNVERIFIED", "issuer_reconciled": false, "periods": [["2025-09-30", 0.62], ["2025-12-31", 0.68], ["2026-03-31", 0.72], ["2026-06-30", 0.82]], "provider_period_labels": {"2025-06-30": "2025-06-30", "2025-09-30": "2025-09-30", "2025-12-31": "2025-12-31", "2026-03-31": "2026-03-31", "2026-06-30": "2026-06-30"}, "share_unit": "provider financial-statement share; ADR/FX conversion unverified", "source": "Yahoo quarterly_income_stmt.Diluted EPS", "status": "AVAILABLE", "ttm_eps": 2.84} | ✅可用 | 报表期末与披露日标签不同；币种取financialCurrency元数据，尚非EPS币种证明，不擅自换汇/换算ADR | 供应商当前版本，非发行人已核实历史PIT |
-| 三套EPS分母核对 | {"basis_bridge": "UNVERIFIED", "info_trailing_eps": 2.83, "info_trailing_pe": 65.06361, "issuer_window_hash": "178039c47b9fbdac", "note": "披露日Reported EPS、info.trailingEps与期末Diluted EPS分别列示；数值相同也不能证明GAAP/非GAAP、拆股、ADR和币种一致", "reported_event_ttm": 3.27, "statement_diluted_ttm": 2.84, "status": "REVIEW_REQUIRED"} | ⚠️部分 | 供应商Reported EPS / info.trailingEps / quarterly_income_stmt.Diluted EPS | 缺少调整、拆股、币种和ADR完整桥时，不把差异认定为计算错误 |
+| 三套EPS分母核对 | {"basis_bridge": "UNVERIFIED", "info_trailing_eps": 2.83, "info_trailing_pe": 65.06361, "issuer_window_hash": "313a3772346faebe", "note": "披露日Reported EPS、info.trailingEps与期末Diluted EPS分别列示；数值相同也不能证明GAAP/非GAAP、拆股、ADR和币种一致", "reported_event_ttm": 3.27, "statement_diluted_ttm": 2.84, "status": "REVIEW_REQUIRED"} | ⚠️部分 | 供应商Reported EPS / info.trailingEps / quarterly_income_stmt.Diluted EPS | 缺少调整、拆股、币种和ADR完整桥时，不把差异认定为计算错误 |
 | 财务指标分子/分母与期间 | {"earnings_growth_pct": {"basis": "provider statement rows; accounting standard unverified; current vintage, not issuer-verified PIT", "currency": "USD", "denominator": 440100000.0, "formula": "quarter Net Income YoY (not EPS, not adjusted)", "numerator": 606300000.0, "period": "2026-06-30 vs 2025-06-30", "source": "Yahoo quarterly_income_stmt / quarterly_balance_sheet"}, "gross_margin_pct": {"basis": "provider statement rows; accounting standard unverified; current vintage, not issuer-verified PIT", "currency": "USD", "denominator": 2047900000.0, "formula": "quarter Gross Profit / Total Revenue", "numerator": 1643200000.0, "period": "2026-06-30", "source": "Yahoo quarterly_income_stmt / quarterly_balance_sheet"}, "operating_margin_pct": {"basis": "provider statement rows; accounting standard unverified; current vintage, not issuer-verified PIT", "currency": "USD", "denominator": 2047900000.0, "formula": "quarter Operating Income / Total Revenue", "numerator": 689300000.0, "period": "2026-06-30", "source": "Yahoo quarterly_income_stmt / quarterly_balance_sheet"}, "return_on_equity_pct": {"basis": "provider statement rows; accounting standard unverified; current vintage, not issuer-verified PIT", "currency": "USD", "denominator": 1805750000.0, "formula": "TTM Net Income / average beginning-and-ending Stockholders Equity", "numerator": 2120700000.0, "period": "TTM 2025-09-30..2026-06-30; equity 2025-06-30/2026-06-30", "source": "Yahoo quarterly_income_stmt / quarterly_balance_sheet"}, "revenue_growth_pct": {"basis": "provider statement rows; accounting standard unverified; current vintage, not issuer-verified PIT", "currency": "USD", "denominator": 1630000000.0, "formula": "quarter Total Revenue YoY", "numerator": 2047900000.0, "period": "2026-06-30 vs 2025-06-30", "source": "Yahoo quarterly_income_stmt / quarterly_balance_sheet"}} | ✅可用 | 本次冻结的计算或公开来源证据 | 当前研究快照，不回填历史PIT |
-| 发行人逐季EPS与单位核对 | {"accounting_standard": "US_GAAP", "adjusted_basis": "ISSUER_NON_GAAP_DILUTED", "adjusted_quarter_sum": 3.27, "adjusted_reference_pe": 58.49235474006117, "annual_comparison": {}, "currency": "USD", "decision_usable": false, "definition_change": {}, "evidence_hash": "178039c47b9fbdac", "gaap_quarter_sum": 2.84, "gaap_reference_pe": 67.34859154929578, "gaap_scope": "CONSOLIDATED", "historical_policy": "LEGACY_VENDOR_SERIES_RETIRED_UNVERIFIED; issuer window does not certify five-year history or consensus", "method": "REVIEWED_ISSUER_QUARTER_SUM_V1", "note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "price_anchor_usable": false, "quarters": [{"adjusted_eps": 0.74, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.62, "net_adjustment_eps": 0.12, "original_adjusted_eps": 0.74, "original_gaap_eps": 0.62, "period_end": "2025-09-30", "release_date": "2025-11-05", "source": "https://investor.fortinet.com/news-releases/news-release-details/fortinet-reports-third-quarter-2025-financial-results/", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.74, "vendor_event_date": "2025-11-05", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}, {"adjusted_eps": 0.81, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.68, "net_adjustment_eps": 0.13, "original_adjusted_eps": 0.81, "original_gaap_eps": 0.68, "period_end": "2025-12-31", "release_date": "2026-02-05", "source": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000003/ftntq4-2025ex991.htm", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.81, "vendor_event_date": "2026-02-05", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}, {"adjusted_eps": 0.82, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.72, "net_adjustment_eps": 0.09999999999999998, "original_adjusted_eps": 0.82, "original_gaap_eps": 0.72, "period_end": "2026-03-31", "release_date": "2026-05-06", "source": "https://www.fortinet.com/lat/corporate/about-us/newsroom/press-releases/2026/fortinet-reports-first-quarter-2026-financial-results", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.82, "vendor_event_date": "2026-05-06", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}, {"adjusted_eps": 0.9, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.82, "net_adjustment_eps": 0.08000000000000007, "original_adjusted_eps": 0.9, "original_gaap_eps": 0.82, "period_end": "2026-06-30", "release_date": "2026-07-29", "source": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.9, "vendor_event_date": "2026-07-29", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}], "quote_adjusted_eps": 3.27, "quote_currency": "USD", "quote_gaap_eps": 2.84, "reference_price": 191.27, "reviewed_on": "2026-10-05", "share_unit": "DILUTED_COMMON_SHARE", "status": "REVIEWED_CURRENT_WINDOW", "symbol": "FTNT", "unit_source": ""} | ✅可用 | 本次冻结的计算或公开来源证据 | 当前研究快照，不回填历史PIT |
+| 发行人逐季EPS与单位核对 | {"accounting_standard": "US_GAAP", "adjusted_basis": "ISSUER_NON_GAAP_DILUTED", "adjusted_quarter_sum": 3.27, "adjusted_reference_pe": 57.883792048929664, "annual_comparison": {}, "currency": "USD", "decision_usable": false, "definition_change": {}, "evidence_hash": "313a3772346faebe", "gaap_quarter_sum": 2.84, "gaap_reference_pe": 66.64788732394366, "gaap_scope": "CONSOLIDATED", "historical_policy": "LEGACY_VENDOR_SERIES_RETIRED_UNVERIFIED; issuer window does not certify five-year history or consensus", "method": "REVIEWED_ISSUER_QUARTER_SUM_V1", "note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "price_anchor_usable": false, "quarters": [{"adjusted_eps": 0.74, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.62, "net_adjustment_eps": 0.12, "original_adjusted_eps": 0.74, "original_gaap_eps": 0.62, "period_end": "2025-09-30", "release_date": "2025-11-05", "source": "https://investor.fortinet.com/news-releases/news-release-details/fortinet-reports-third-quarter-2025-financial-results/", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.74, "vendor_event_date": "2025-11-05", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}, {"adjusted_eps": 0.81, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.68, "net_adjustment_eps": 0.13, "original_adjusted_eps": 0.81, "original_gaap_eps": 0.68, "period_end": "2025-12-31", "release_date": "2026-02-05", "source": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000003/ftntq4-2025ex991.htm", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.81, "vendor_event_date": "2026-02-05", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}, {"adjusted_eps": 0.82, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.72, "net_adjustment_eps": 0.09999999999999998, "original_adjusted_eps": 0.82, "original_gaap_eps": 0.72, "period_end": "2026-03-31", "release_date": "2026-05-06", "source": "https://www.fortinet.com/lat/corporate/about-us/newsroom/press-releases/2026/fortinet-reports-first-quarter-2026-financial-results", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.82, "vendor_event_date": "2026-05-06", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}, {"adjusted_eps": 0.9, "adjustment_note": "GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形资产摊销及各季法律/税务等调整，逐季总差额可以复核。", "gaap_eps": 0.82, "net_adjustment_eps": 0.08000000000000007, "original_adjusted_eps": 0.9, "original_gaap_eps": 0.82, "period_end": "2026-06-30", "release_date": "2026-07-29", "source": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm", "split_divisor": 1, "vendor_date_status": "MATCH", "vendor_eps": 0.9, "vendor_event_date": "2026-07-29", "vendor_match_note": "数值在供应商分币舍入内匹配；不认证供应商全历史定义", "vendor_matches": ["ISSUER_NON_GAAP_DILUTED"]}], "quote_adjusted_eps": 3.27, "quote_currency": "USD", "quote_gaap_eps": 2.84, "reference_price": 189.28, "reviewed_on": "2026-10-05", "share_unit": "DILUTED_COMMON_SHARE", "status": "REVIEWED_CURRENT_WINDOW", "symbol": "FTNT", "unit_source": ""} | ✅可用 | 本次冻结的计算或公开来源证据 | 当前研究快照，不回填历史PIT |
 | 供应商未定期字段（不评分） | {"earnings_growth_pct": 43.9, "gross_margin_pct": 80.204004, "operating_margin_pct": 33.595002, "return_on_equity_pct": 117.44200000000001, "revenue_growth_pct": 25.6} | ✅可用 | 本次冻结的计算或公开来源证据 | 当前研究快照，不回填历史PIT |
 | TTM FCF分子 | 3117000000 USD；CFO 3396100000 − Capex 279100000 | 🧮估算 | Yahoo quarterly_cashflow: Operating Cash Flow - abs(Capital Expenditure) | 研究期间 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；原标签 2025-09-30, 2025-12-31, 2026-03-31, 2026-06-30；映射 PROVIDER_STATEMENT_LABELS；本地观察 2026-10-06T00:37:21+00:00 |
-| FCF收益率分母 | 研究市值 140337410409；股数基数 733713653；收益率 2.22% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
+| FCF收益率分母 | 研究市值 138877320240；股数基数 733713653；收益率 2.24% | 🧮估算 | report price × Yahoo sharesOutstanding (current snapshot, not PIT) | 现价来自本次报告；供应商股数不是完整历史PIT快照 |
 | 供应商quote FCF诊断 | 2265587456（期间未核，不用于收益率或DCF） | ⚠️部分 | Yahoo info.freeCashflow | quote字段未提供报表期间 |
 | 季度EPS/TTM EPS历史 | CACHE; cache FRESH; age N/A / TTL 85d; fallback 无 | ✅可用 | Yahoo get_earnings_dates | 本地观察 2026-08-01；数据截至 2026-07-29；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 历史PE价格口径 | NETWORK_INCREMENTAL; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=fd1d23e13974d227 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-07T02:16:34+00:00；数据截至 2026-10-06；供应商时间 N/A；供应商发布时间 供应商未提供 |
-| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-07T02:16:34+00:00；数据截至 N/A；供应商时间 2026-10-06 22:16:08.471；供应商发布时间 供应商未提供 |
+| 历史PE价格口径 | NETWORK_INCREMENTAL; cache FRESH; age 0.00h / TTL 1d; fallback 无; price basis YAHOO_AUTO_ADJUST_TRUE_CURRENT_VINTAGE; auto_adjust=True;actions=True; action_ledger=NOT_CAPTURED; factor_vintage=CURRENT_PROVIDER_RESPONSE_NOT_FROZEN; manifest=e49f60889bce4ec0 | ✅可用 | Yahoo Finance Ticker.history | 本地观察 2026-10-08T02:10:32+00:00；数据截至 2026-10-07；供应商时间 N/A；供应商发布时间 供应商未提供 |
+| 供应商当前TTM PE | SNAPSHOT_OVERRIDE; cache NOT_APPLICABLE; age N/A / TTL 0d; fallback 无 | ✅可用 | 行情供应商 get_market_snapshot | 本地观察 2026-10-08T02:10:33+00:00；数据截至 N/A；供应商时间 2026-10-07 21:22:38.203；供应商发布时间 供应商未提供 |
 | 冻结假设 | 旧供应商Reported EPS按披露日标签求和形成滚动TTM EPS；同字段不证明同会计口径，未核实时已退出价格锚和决策；区间由已记录的动态制度/HDI选择器决定 | — | valuation audit manifest | 本次清单 |
 | 决策权限 | 仅报告或研究分类；无BUY、入场、止盈或持仓权限；输入完整性门已阻断：historical_eps_accounting_currency_share_basis_unverified | — | capability boundary | 本次清单 |
 | 一致性检查 | 无 | — | deterministic validator | 本次清单 |
@@ -137,7 +130,7 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 
 ### 为什么暂时没有合理区间
 
-> Reported EPS历史会计定义、币种/每股单位及调整一致性未核实；仅保留供应商序列背景，暂停合理价和决策评分。 旧供应商 PE 58.5x；历史诊断分布 29.3–52.1x。该历史带只作背景，不是合理倍数或合理价格区间。 五年 p10-p90 背景为 30.7–75.9x，同样不参与目标价。 程序不会用缺失数据补出一个看似精确的区间。
+> Reported EPS历史会计定义、币种/每股单位及调整一致性未核实；仅保留供应商序列背景，暂停合理价和决策评分。 旧供应商 PE 57.9x；历史诊断分布 29.3–52.1x。该历史带只作背景，不是合理倍数或合理价格区间。 五年 p10-p90 背景为 30.7–75.5x，同样不参与目标价。 程序不会用缺失数据补出一个看似精确的区间。
 
 ### 行情价格口径审计
 
@@ -145,7 +138,7 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 
 | 周期 | 复权身份 | 来源/代码 | 数据范围 | 清单哈希 |
 | --- | --- | --- | --- | --- |
-| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.FTNT | 2021-10-04 → 2026-10-06 | `90bf506a2aefbab6` |
+| daily | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.FTNT | 2021-10-04 → 2026-10-07 | `335a56ae99be277d` |
 | weekly | FUTU_QFQ_CURRENT_VINTAGE (`AuType.QFQ`) | Futu OpenAPI request_history_kline / US.FTNT | 2021-10-11 → 2026-09-28 | `84b2eaaa5923d192` |
 
 
@@ -200,16 +193,16 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 | --- | --- | --- |
 | 分析师EPS修正 | 🟢 **STRONG_UP**（90日对称变化 +9.0%） | 不是普通增长率；跨零时可达±200%，需核对同一预测期间与会计定义 |
 | EPS修正计算依据 | 期间 0y；当前EPS 3.45008；90日前 3.15261；30日前 3.43913 | 200×(新−旧)/(abs(新)+abs(旧))；Yahoo同一预测行，本地观察 2026-10-06T00:26:47.524934+00:00；历史财年滚动与GAAP/调整口径仍需核实 |
-| 基本面质量 | **HIGH**（90/100，operating_company） | TTM FCF（CFO−Capex）收益率 2.22%；毛利率 +80.2%（2026-06-30；quarter Gross Profit / Total Revenue；分子1,643,200,000/分母2,047,900,000 USD）；经营利润率 +33.7%（2026-06-30；quarter Operating Income / Total Revenue；分子689,300,000/分母2,047,900,000 USD）；TTM ROE +117.4%（TTM 2025-09-30..2026-06-30; equity 2025-06-30/2026-06-30；TTM Net Income / average beginning-and-ending Stockholders Equity；分子2,120,700,000/分母1,805,750,000 USD）；季度营收同比 +25.6%（2026-06-30 vs 2025-06-30；quarter Total Revenue YoY；分子2,047,900,000/分母1,630,000,000 USD）；季度报表净利润同比（不是EPS） +37.8%（2026-06-30 vs 2025-06-30；quarter Net Income YoY (not EPS, not adjusted)；分子606,300,000/分母440,100,000 USD） |
-| 财务特征相近的研究样本 | **ORCL** PE 17.9x（营收+29.6%，经营率35.3%）；**MSFT** PE 30.6x（营收+17.7%，经营率45.1%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
-| 下次财报 | **2026-10-28（22天；发行人已确认；核实2026-10-05；公告发布时间未确定；供应商另列2026-11-04，采用发行人日期；[来源](https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-to-announce-third-quarter-2026-financial-results)）** | 3天内强制观望；4–14天降级等待 |
+| 基本面质量 | **HIGH**（90/100，operating_company） | TTM FCF（CFO−Capex）收益率 2.24%；毛利率 +80.2%（2026-06-30；quarter Gross Profit / Total Revenue；分子1,643,200,000/分母2,047,900,000 USD）；经营利润率 +33.7%（2026-06-30；quarter Operating Income / Total Revenue；分子689,300,000/分母2,047,900,000 USD）；TTM ROE +117.4%（TTM 2025-09-30..2026-06-30; equity 2025-06-30/2026-06-30；TTM Net Income / average beginning-and-ending Stockholders Equity；分子2,120,700,000/分母1,805,750,000 USD）；季度营收同比 +25.6%（2026-06-30 vs 2025-06-30；quarter Total Revenue YoY；分子2,047,900,000/分母1,630,000,000 USD）；季度报表净利润同比（不是EPS） +37.8%（2026-06-30 vs 2025-06-30；quarter Net Income YoY (not EPS, not adjusted)；分子606,300,000/分母440,100,000 USD） |
+| 财务特征相近的研究样本 | **ORCL** PE 17.8x（营收+29.6%，经营率35.3%）；**MSFT** PE 30.7x（营收+17.7%，经营率45.1%） | 目前只有 3 只合格同行；只作展示，不下高估/低估结论 |
+| 下次财报 | **2026-10-28（21天；发行人已确认；核实2026-10-05；公告发布时间未确定；供应商另列2026-11-04，采用发行人日期；[来源](https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-to-announce-third-quarter-2026-financial-results)）** | 3天内强制观望；4–14天降级等待 |
 | 非财报事件 | ⚪ 手工事件表暂无附近记录 | 手工表不是完整市场日历；入场前仍需核查公司事件 |
 
 ---
 
 ## 🏗️ 结构分析（价格位置）
 
-**当前价格：$191.27** | 最大成交中心 $79.29，主要成交区 $72.16—$117.00
+**当前价格：$189.28** | 最大成交中心 $79.29，主要成交区 $70.12—$119.04
 
 ### 📐 唯一主 Fib：局部结构
 
@@ -222,7 +215,7 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 **主 Fib 梯子**：23.6% `$157.82` · 38.2% `$142.19` · 50% `$129.55` · 61.8% `$116.92` · 78.6% `$98.93`
 
 
-> **数据时点**：仅使用截至 2026-10-06 已完成的 260 根周K。
+> **数据时点**：仅使用截至 2026-10-07 已完成的 260 根周K。
 
 > **结构状态**：保护位 `$76.01`；暂无新结构事件。61.8% 只描述回撤/反弹深度，不充当结构失效线。
 
@@ -246,11 +239,12 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 
 | 价格区间 | 区间依据 | 方向/区域重要性 | 成交密度 | 现价在哪里 | 怎么做 |
 | --- | --- | --- | --- | --- | --- |
-| **现价 $191.27** | 统一现价快照 | 当前价格 | — | **当前位置** | 判断上下区间的统一基准 |
-| $180.34 - $185.84 | 波段拐点 · 周线波段高点 | 支撑 · **区域重要性：⭐（弱）** | 无（不是成交密集区） | 🟡 高于区间 2.8% | 日线开盘或收盘低于 $180.3436 → 支撑失效；失效后下看 $159.80 - $161.84 |
-| $159.80 - $161.84 | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） + 日线20MA $173.77 / 50MA $165.06（附近参考，不计分） | 支撑 · **区域重要性：⭐⭐（中）** | 峰值 1.4× 同窗口平均 | 高于区间 15.4% | — |
-| $155.72 - $157.76 | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） | 支撑 · **区域重要性：⭐（弱）** | 峰值 1.3× 同窗口平均 | 高于区间 17.5% | — |
-| $151.65 - $153.68 | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） | 支撑 · **区域重要性：⭐（弱）** | 峰值 1.2× 同窗口平均 | 高于区间 19.7% | — |
+| **现价 $189.28** | 统一现价快照 | 当前价格 | — | **当前位置** | 判断上下区间的统一基准 |
+| $180.34 - $185.84 | 波段拐点 · 周线波段高点 | 支撑 · **区域重要性：⭐（弱）** | 无（不是成交密集区） | 🟡 高于区间 1.8% | 日线开盘或收盘低于 $180.3436 → 支撑失效；失效后下看 $174.14 - $176.60 |
+| $174.14 - $176.60 | 技术参考区 · 日线20MA $175.37 | 支撑 · **区域重要性：⭐（弱）** | 无（不是成交密集区） | 高于区间 6.7% | — |
+| $159.80 - $161.84 | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） + 日线50MA $165.85（附近参考，不计分） | 支撑 · **区域重要性：⭐（弱）** | 峰值 1.4× 同窗口平均 | 高于区间 14.5% | — |
+| $155.72 - $157.76 | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） | 支撑 · **区域重要性：⭐（弱）** | 峰值 1.3× 同窗口平均 | 高于区间 16.7% | — |
+| $151.65 - $153.68 | 成交密集区 · 日线（目标窗口近2年，实际覆盖见价格清单） | 支撑 · **区域重要性：⭐（弱）** | 峰值 1.2× 同窗口平均 | 高于区间 18.8% | — |
 
 #### 为什么这些区间重要
 
@@ -268,18 +262,18 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 | 日线 2026-05-29 | **核心 $130 - $138**；节点外层 $130 - $138（确认中线 $133.78）；环比放量长阳 | 已确认支撑 | 1.7×近20根中位量；量能分位 90%；实体 1.7 ATR；独立回测 1 次；较前一根 1.66× | 回踩实体后收回几何中线才算确认；连续2个日线收盘（或一次决定性高量长实体）低于 $129.59 才算完整失效 |
 | 周线事件 2026-05-04；节点形成 2026-05-08 | **核心 $113.42 - $114.25**；节点外层 $113.01 - $114.66（确认中线 $113.84）；原始周K实体 $87 - $114；环比放量长阳 | 已确认支撑 | 1.5×近20根中位量；量能分位 93%；实体 4.4 ATR；独立回测 1 次；较前一根 2.02×；参与不足/方向混合周线（最大单日 40%，前两日 62%，有效成交日 3.9/5，显著放量 2/5，方向一致量 100%）；5分钟全时段VWAP成交量近似；估算峰值价 $114.04；核心占该价格阶段总量 15%；节点外层占该价格阶段总量 19%；峰值密度 6.6×；核心宽 0.7%；节点由 1 个交易日贡献，最大单日占 100%；日内量覆盖日K 100%；节点外层 $113.01 - $114.66 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $113.01 才算完整失效 |
 | 周线事件 2026-05-04；节点形成 2026-05-07 → 2026-05-08 | **核心 $110 - $112**；节点外层 $109 - $113（确认中线 $111.16）；原始周K实体 $87 - $114；环比放量长阳 | 已确认支撑 | 1.5×近20根中位量；量能分位 93%；实体 4.4 ATR；独立回测 1 次；较前一根 2.02×；参与不足/方向混合周线（最大单日 40%，前两日 62%，有效成交日 3.9/5，显著放量 2/5，方向一致量 100%）；5分钟全时段VWAP成交量近似；估算峰值价 $111.16；核心占该价格阶段总量 29%；节点外层占该价格阶段总量 39%；峰值密度 6.0×；核心宽 1.9%；节点由 2 个交易日贡献，最大单日占 70%；日内量覆盖日K 100%；节点外层 $109 - $113 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $109.31 才算完整失效 |
+| 日线 2026-05-08 | **核心 $107 - $114**；节点外层 $107 - $114（确认中线 $110.69）；高相对成交量长阳 | 已确认支撑 | 1.8×近20根中位量；量能分位 90%；实体 1.6 ATR；独立回测 1 次；较前一根 0.55× | 回踩实体后收回几何中线才算确认；连续2个日线收盘（或一次决定性高量长实体）低于 $107.30 才算完整失效 |
 | 周线事件 2025-08-04；节点形成 2025-08-07 → 2025-08-08 | **核心 $74.86 - $76.04**；节点外层 $74.86 - $76.34（确认中线 $75.60）；原始周K实体 $74 - $98；环比放量长阴 | 翻转后已确认支撑 | 4.2×近20根中位量；量能分位 100%；实体 3.3 ATR；独立回测 5 次；较前一根 4.19×；单日集中型周线（最大单日 57%，前两日 78%，有效成交日 2.6/5，显著放量 3/5，方向一致量 25%）；5分钟全时段VWAP成交量近似；估算峰值价 $75.23；核心占该价格阶段总量 9%；节点外层占该价格阶段总量 11%；峰值密度 3.3×；核心宽 1.6%；节点由 2 个交易日贡献，最大单日占 70%；日内量覆盖日K 100%；节点外层 $74.86 - $76.34 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $74.86 才算完整失效 |
 | 周线事件 2025-08-04；节点形成 2025-08-07 → 2025-08-08 | **核心 $73.38 - $74.56**；节点外层 $72.93 - $74.86（确认中线 $73.89）；原始周K实体 $74 - $98；环比放量长阴 | 翻转后已确认支撑 | 4.2×近20根中位量；量能分位 100%；实体 3.3 ATR；独立回测 2 次；较前一根 4.19×；单日集中型周线（最大单日 57%，前两日 78%，有效成交日 2.6/5，显著放量 3/5，方向一致量 25%）；5分钟全时段VWAP成交量近似；估算峰值价 $73.75；核心占该价格阶段总量 26%；节点外层占该价格阶段总量 37%；峰值密度 3.2×；核心宽 1.6%；节点由 2 个交易日贡献，最大单日占 62%；日内量覆盖日K 100%；节点外层 $72.93 - $74.86 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $72.93 才算完整失效 |
 | 周线事件 2024-08-05；节点形成 2024-08-07 → 2024-08-09 | **核心 $68.43 - $70.06**；节点外层 $68 - $71（确认中线 $69.85）；原始周K实体 $55 - $70；环比放量长阳 | 已确认支撑 | 2.8×近20根中位量；量能分位 96%；实体 4.6 ATR；独立回测 1 次，多次测试后强度已衰减；较前一根 2.52×；参与不足/方向混合周线（最大单日 40%，前两日 59%，有效成交日 3.9/5，显著放量 4/5，方向一致量 52%）；5分钟全时段VWAP成交量近似；估算峰值价 $69.72；核心占该价格阶段总量 64%；节点外层占该价格阶段总量 91%；峰值密度 3.9×；核心宽 2.4%；节点由 3 个交易日贡献，最大单日占 53%；日内量覆盖日K 100%；节点外层 $68 - $71 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $68.29 才算完整失效 |
 | 周线事件 2023-07-31；节点形成 2023-08-04 | **核心 $56.39 - $57.55**；节点外层 $56 - $58（确认中线 $57.34）；原始周K实体 $57 - $77；环比放量长阴 | 翻转后已确认支撑 | 2.2×近20根中位量；量能分位 97%；实体 4.7 ATR；独立回测 6 次，多次测试后强度已衰减；较前一根 2.75×；单日集中型周线（最大单日 65%，前两日 77%，有效成交日 2.2/5，显著放量 1/5，方向一致量 76%）；5分钟全时段VWAP成交量近似；估算峰值价 $57.05；核心占该价格阶段总量 62%；节点外层占该价格阶段总量 86%；峰值密度 7.2×；核心宽 2.0%；节点由 1 个交易日贡献，最大单日占 100%；日内量覆盖日K 100%；节点外层 $56 - $58 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $56.25 才算完整失效 |
 | 周线事件 2026-05-04；节点形成 2026-05-07 → 2026-05-08 | **核心 $107.25 - $108.07**；节点外层 $106 - $109（确认中线 $107.86）；原始周K实体 $87 - $114；环比放量长阳 | 候选支撑（尚未独立回测核心） | 1.5×近20根中位量；量能分位 93%；实体 4.4 ATR；独立回测 0 次；较前一根 2.02×；参与不足/方向混合周线（最大单日 40%，前两日 62%，有效成交日 3.9/5，显著放量 2/5，方向一致量 100%）；5分钟全时段VWAP成交量近似；估算峰值价 $107.86；核心占该价格阶段总量 29%；节点外层占该价格阶段总量 39%；峰值密度 10.1×；核心宽 0.8%；节点由 2 个交易日贡献，最大单日占 89%；日内量覆盖日K 100%；节点外层 $106 - $109 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $106.42 才算完整失效 |
-| 周线事件 2026-05-04；节点形成 2026-05-04 → 2026-05-06 | **核心 $89.18 - $90.03**；节点外层 $88 - $91（确认中线 $89.39）；原始周K实体 $87 - $114；环比放量长阳 | 候选支撑（尚未独立回测核心） | 1.5×近20根中位量；量能分位 93%；实体 4.4 ATR；独立回测 0 次；较前一根 2.02×；参与不足/方向混合周线（最大单日 40%，前两日 62%，有效成交日 3.9/5，显著放量 2/5，方向一致量 100%）；5分钟全时段VWAP成交量近似；估算峰值价 $89.39；核心占该价格阶段总量 65%；节点外层占该价格阶段总量 90%；峰值密度 17.1×；核心宽 0.9%；节点由 3 个交易日贡献，最大单日占 42%；日内量覆盖日K 100%；节点外层 $88 - $91 | 先真正进入成交核心，再收回节点外层中线才算确认；完整周线收盘低于 $87.90 才算完整失效 |
 
 > 周线只使用已经收完的完整K线。只有“分布式周线 + 高分辨率节点 + 至少3个贡献日 + 最大单日节点占比不超过60%”才能取得独立周线加分并压掉同周日线副本；本次去重 0 个。集中型/混合型周线仍可显示和接受回测，但不会因为被压缩成周K而重复加分。日K OHLCV降级节点最高只能作为两星级事件证据。
 
 ## ⚡ 期权波动异常
 
-> ATM IV 52%；Put Skew +7.9 vol pts。仅提示事件/波动风险，不提供方向，也不参与分类。
+> ATM IV 50%；Put Skew -5.6 vol pts。仅提示事件/波动风险，不提供方向，也不参与分类。
 
 ## 🌐 环境与技术快照
 
@@ -287,10 +281,10 @@ GAAP与公司non-GAAP稀释EPS并列；后者排除股权薪酬、收购无形�
 
 - **大盘状态：** BULLISH
 - **板块：** XLK BULLISH
-- **日/周动能：** MACD（行情供应商） +2.330 / +0.155
-- **RSI多周期：** 日6/12/24 86.3/74.5/66.0；正式RSI14日/周 72.2/74.0
+- **日/周动能：** MACD（行情供应商） +2.449 / +0.155
+- **RSI多周期：** 日6/12/24 76.8/70.5/64.3；正式RSI14日/周 68.9/74.0
 - **均线：** FULL_BULL
-- **RS vs SPY：** LEADER（3月 +16.5%）
+- **RS vs SPY：** LEADER（3月 +11.5%）
 
 
 ---
