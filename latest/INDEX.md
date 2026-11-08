@@ -1,4 +1,4 @@
-# 股票研究报告 · 2026-11-02
+# 股票研究报告 · 2026-11-07
 
 > 本目录仅用于辅助股票分析，不提供买卖数量或仓位比例。价格区间采用报告标注的价格口径；使用前请确认报告日期。
 
@@ -79,5 +79,6 @@
 - [UNH](stocks/UNH.md)
 - [USO](stocks/USO.md)
 - [VOO](stocks/VOO.md)
+- [VRT](stocks/VRT.md)
 - [VST](stocks/VST.md)
 - [WMT](stocks/WMT.md)
