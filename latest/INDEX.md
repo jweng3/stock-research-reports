@@ -1,4 +1,4 @@
-# 股票研究报告 · 2026-11-07
+# 股票研究报告 · 2026-11-08
 
 > 本目录仅用于辅助股票分析，不提供买卖数量或仓位比例。价格区间采用报告标注的价格口径；使用前请确认报告日期。
 
@@ -60,6 +60,7 @@
 - [QBTS](stocks/QBTS.md)
 - [QCOM](stocks/QCOM.md)
 - [QQQ](stocks/QQQ.md)
+- [QQQM](stocks/QQQM.md)
 - [RGTI](stocks/RGTI.md)
 - [RKLB](stocks/RKLB.md)
 - [ROBO](stocks/ROBO.md)

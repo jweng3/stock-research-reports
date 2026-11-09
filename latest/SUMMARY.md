@@ -1,6 +1,6 @@
-# 每日选股摘要 — 2026-11-07
+# 每日选股摘要 — 2026-11-08
 
-**大盘状态：** 🟡 谨慎｜[SPY](stocks/SPY.md) 站上200日线，MACD偏弱｜广度：50日线上43% / 200日线上57%｜20日波动率20%
+**大盘状态：** 🟡 谨慎｜[SPY](stocks/SPY.md) 站上200日线，MACD偏弱｜广度：50日线上43% / 200日线上47%｜20日波动率20%
 
 **波动风险观察：** 🟠 VIX 25.64 / VIX3M 24.60｜比值 1.0423｜两期限倒挂连续2个交易日；短端压力缓和｜收盘 2026-11-06｜[Cboe](https://www.cboe.com/tradable_products/vix/term_structure)，仅观察
 
@@ -12,11 +12,11 @@
 
 ---
 
-**分析股票总数:** 78
+**分析股票总数:** 79
 - 🟢 买入候选: 4 只
 - 🟡 观察等待: 31 只
 - ⚠️ 财报观望: 4 只
-- 🔴 暂时回避: 39 只
+- 🔴 暂时回避: 40 只
 
 ---
 
@@ -63,6 +63,7 @@
 | **[PYPL](stocks/PYPL.md)** | RSI6 空头（顶部）观察 | 2026-11-02 → 2026-11-06（4根） | $58.78→$59.24 | $59.24 | 🟡 观察等待 |
 | **[SPY](stocks/SPY.md)** | RSI6 多头（底部）观察 | 2026-11-02 → 2026-11-06（4根） | $752.10→$735.29 | $735.29 | 🔴 暂时回避 |
 | **[TSM](stocks/TSM.md)** | RSI6 多头（底部）观察 | 2026-11-02 → 2026-11-06（4根） | $398.63→$375.44 | $375.44 | 🔴 暂时回避 |
+| **[QQQM](stocks/QQQM.md)** | RSI6 多头（底部）观察 | 2026-11-02 → 2026-11-06（4根） | $280.49→$270.22 | $270.22 | 🔴 暂时回避 |
 | **[VST](stocks/VST.md)** | RSI6 多头（底部）观察 | 2026-11-02 → 2026-11-06（4根） | $134.61→$124.80 | $124.80 | 🔴 暂时回避 |
 | **[AMBA](stocks/AMBA.md)** | RSI6 多头（底部）观察 | 2026-11-02 → 2026-11-06（4根） | $61.67→$58.55 | $58.55 | 🔴 暂时回避 |
 | **[UMAC](stocks/UMAC.md)** | RSI6 多头（底部）观察 | 2026-11-02 → 2026-11-06（4根） | $14.27→$11.90 | $11.90 | 🔴 暂时回避 |
@@ -116,6 +117,7 @@
 | **[PYPL](stocks/PYPL.md)** | 75.0→63.4 | +0.269→+0.495 | 临时候选；不参与评级 |
 | **[SPY](stocks/SPY.md)** | 27.4→29.5 | -3.647→-6.938 | 临时候选；不参与评级 |
 | **[TSM](stocks/TSM.md)** | 27.0→34.8 | -6.053→-12.603 | 临时候选；不参与评级 |
+| **[QQQM](stocks/QQQM.md)** | 22.5→26.8 | -3.577→-5.449 | 临时候选；不参与评级 |
 | **[VST](stocks/VST.md)** | 27.8→39.4 | -3.914→-6.331 | 临时候选；不参与评级 |
 | **[AMBA](stocks/AMBA.md)** | 31.8→36.8 | -0.042→-1.310 | 临时候选；不参与评级 |
 | **[UMAC](stocks/UMAC.md)** | 21.0→27.5 | -0.158→-0.777 | 临时候选；不参与评级 |
@@ -211,20 +213,20 @@
 
 | 股票 | 备注 |
 | --- | --- |
-| [NVDA](stocks/NVDA.md) | 板块逆风（XLK空头）；审核依据：距财报仅 10 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
+| [NVDA](stocks/NVDA.md) | 板块逆风（XLK空头）；审核依据：距财报仅 9 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
 | [MSFT](stocks/MSFT.md) | 板块逆风（XLK空头）；审核依据：板块逆风（XLK空头），个股暂无企稳信号 — 出现合格止跌信号后重新审核全部入场条件 |
-| [INTU](stocks/INTU.md) | 板块逆风（XLK空头）；审核依据：距财报仅 12 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
+| [INTU](stocks/INTU.md) | 板块逆风（XLK空头）；审核依据：距财报仅 11 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
 | [CRM](stocks/CRM.md) | 板块逆风（XLK空头）；审核依据：板块逆风（XLK空头），个股暂无企稳信号 — 出现合格止跌信号后重新审核全部入场条件 |
-| [HD](stocks/HD.md) | 趋势向上，等回调到支撑；审核依据：距财报仅 10 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
-| [DIS](stocks/DIS.md) | 板块逆风（XLC空头）；审核依据：距财报仅 10 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
-| [CBRS](stocks/CBRS.md) | 接近入场区间；审核依据：距财报仅 5 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
+| [HD](stocks/HD.md) | 趋势向上，等回调到支撑；审核依据：距财报仅 9 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
+| [DIS](stocks/DIS.md) | 板块逆风（XLC空头）；审核依据：距财报仅 9 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
+| [CBRS](stocks/CBRS.md) | 接近入场区间；审核依据：距财报仅 4 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
 | [PLTR](stocks/PLTR.md) | 板块逆风（XLK空头）；审核依据：板块逆风（XLK空头），个股暂无企稳信号 — 出现合格止跌信号后重新审核全部入场条件；无已通过审核的首仓setup |
 | [USO](stocks/USO.md) | 接近入场区间；审核依据：没有首仓 setup 通过独立审核：入场价未贴近 ★★★+ 行动核心；无已通过审核的首仓setup |
 | [KO](stocks/KO.md) | 趋势向上，等回调到支撑；审核依据：没有首仓 setup 通过独立审核：该方案名义 R:R 29.0:1，目标过远；无已通过审核的首仓setup |
-| [WMT](stocks/WMT.md) | 趋势向上，等回调到支撑；审核依据：距财报仅 12 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
+| [WMT](stocks/WMT.md) | 趋势向上，等回调到支撑；审核依据：距财报仅 11 天，入场后很快面临跳空事件；等待财报后重评；无已通过审核的首仓setup |
 | [CCL](stocks/CCL.md) | 趋势向上，等回调到支撑；审核依据：🚀 财报后正向漂移（PEAD BULLISH: reaction gap +10.2%, volume 3.2x, close position 86%, 28 trading bars ago.）— 没有首仓 setup 通过独立审核：计划入场低于现价 12.4% > 8%；无已通过审核的首仓setup |
 | [TOL](stocks/TOL.md) | 趋势向上，等回调到支撑；审核依据：没有首仓 setup 通过独立审核：该方案名义 R:R 26.0:1，目标过远；最近突破状态：2026-11-04 收盘上破 $152.40 - $153.77 上沿 $153.77；量比 1.34x，收盘位于当日振幅 64%；后续收盘或当前价重新落回区间，突破未保持；无已通过审核的首仓setup |
-| [FUTU](stocks/FUTU.md) | 价格低于200MA（$122.99）；审核依据：距财报仅 12 天，入场后很快面临跳空事件；等待财报后重评 |
+| [FUTU](stocks/FUTU.md) | 价格低于200MA（$122.99）；审核依据：距财报仅 11 天，入场后很快面临跳空事件；等待财报后重评 |
 | [AAPL](stocks/AAPL.md) | 板块逆风（XLK空头）；审核依据：板块逆风（XLK空头），个股暂无企稳信号 — 出现合格止跌信号后重新审核全部入场条件；无已通过审核的首仓setup |
 | [LLY](stocks/LLY.md) | 趋势向上，等回调到支撑；审核依据：没有首仓 setup 通过独立审核：计划入场低于现价 12.7% > 8%；无已通过审核的首仓setup |
 | [PEP](stocks/PEP.md) | 价格低于200MA（$143.68）；审核依据：没有首仓 setup 通过独立审核：入场价未贴近 ★★★+ 行动核心；无已通过审核的首仓setup |
@@ -245,8 +247,8 @@
 
 | 股票 | 备注 |
 | --- | --- |
-| [VRT](stocks/VRT.md) | Forward观察线 $183.19；相对概率加权中心折价20.1%；审核依据：🔭 Forward价值观察：现价 $182.86 ≤ 观察线 $183.19，相对概率加权中心 $228.99折价约20.1%；尚未要求以短期波动换仓，但买入前仍应等待合格止跌。该分类只用于研究文件夹，不参与BUY评分、深度价值豁免或估值退出；无已通过审核的首仓setup |
-| [MU](stocks/MU.md) | Forward观察线 $1323.98；相对概率加权中心折价58.3%；审核依据：🔭 Forward价值观察：现价 $690.00 ≤ 观察线 $1323.98，相对概率加权中心 $1654.97折价约58.3%；尚未要求以短期波动换仓，但买入前仍应等待合格止跌。该分类只用于研究文件夹，不参与BUY评分、深度价值豁免或估值退出；无已通过审核的首仓setup |
+| [VRT](stocks/VRT.md) | Forward观察线 $183.22；相对概率加权中心折价20.2%；审核依据：🔭 Forward价值观察：现价 $182.86 ≤ 观察线 $183.22，相对概率加权中心 $229.03折价约20.2%；尚未要求以短期波动换仓，但买入前仍应等待合格止跌。该分类只用于研究文件夹，不参与BUY评分、深度价值豁免或估值退出；无已通过审核的首仓setup |
+| [MU](stocks/MU.md) | Forward观察线 $1324.36；相对概率加权中心折价58.3%；审核依据：🔭 Forward价值观察：现价 $690.00 ≤ 观察线 $1324.36，相对概率加权中心 $1655.45折价约58.3%；尚未要求以短期波动换仓，但买入前仍应等待合格止跌。该分类只用于研究文件夹，不参与BUY评分、深度价值豁免或估值退出；无已通过审核的首仓setup |
 
 
 ### 🔵 结构待修 (10 只) — 板块/趋势条件待修复，保持观察
@@ -288,10 +290,10 @@
 
 | 股票 | 财报日期 | 天数 | 信号 |
 | --- | --- | --- | --- |
-| [INO](stocks/INO.md) | 2026-11-10 | 3d | BULLISH |
-| [RKLB](stocks/RKLB.md) | 2026-11-09 | 2d | BEARISH |
-| [RGTI](stocks/RGTI.md) | 2026-11-10 | 3d | BEARISH |
-| [QBTS](stocks/QBTS.md) | 2026-11-10 | 3d | BEARISH |
+| [INO](stocks/INO.md) | 2026-11-10 | 2d | BULLISH |
+| [RKLB](stocks/RKLB.md) | 2026-11-09 | 1d | BEARISH |
+| [RGTI](stocks/RGTI.md) | 2026-11-10 | 2d | BEARISH |
+| [QBTS](stocks/QBTS.md) | 2026-11-10 | 2d | BEARISH |
 
 > 详细字段拆成窄表并重复股票/记录标识，避免长文字横向挤压。
 
@@ -299,17 +301,17 @@
 
 | 股票 | 备注 |
 | --- | --- |
-| [INO](stocks/INO.md) | EARNINGS IN 3 DAY(S) (2026-11-10, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
-| [RKLB](stocks/RKLB.md) | EARNINGS IN 2 DAY(S) (2026-11-09, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
-| [RGTI](stocks/RGTI.md) | EARNINGS IN 3 DAY(S) (2026-11-10, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
-| [QBTS](stocks/QBTS.md) | EARNINGS IN 3 DAY(S) (2026-11-10, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
+| [INO](stocks/INO.md) | EARNINGS IN 2 DAY(S) (2026-11-10, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
+| [RKLB](stocks/RKLB.md) | EARNINGS IN 1 DAY(S) (2026-11-09, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
+| [RGTI](stocks/RGTI.md) | EARNINGS IN 2 DAY(S) (2026-11-10, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
+| [QBTS](stocks/QBTS.md) | EARNINGS IN 2 DAY(S) (2026-11-10, source: yfinance_calendar). This is within the 3-day guardrail window. STAND ASIDE — do not enter a new position in this event window. Re-run the briefing after earnings to reassess the setup. |
 
 
 ---
 
 ## 🔴 暂时回避
 
-- **周线动能门未通过（38；周MACD柱为负，不等同长期价格趋势向下）**：[SPY](stocks/SPY.md), [ORCL](stocks/ORCL.md), [TSM](stocks/TSM.md), [PGEN](stocks/PGEN.md), [AVGO](stocks/AVGO.md), [VST](stocks/VST.md), [AMZN](stocks/AMZN.md), [GOOG](stocks/GOOG.md), [AMBA](stocks/AMBA.md), [UMAC](stocks/UMAC.md), [NFLX](stocks/NFLX.md), [MAGS](stocks/MAGS.md), [ROBO](stocks/ROBO.md), [BOTZ](stocks/BOTZ.md), [SYM](stocks/SYM.md), [QCOM](stocks/QCOM.md), [SOXX](stocks/SOXX.md), [UNH](stocks/UNH.md), [SNDK](stocks/SNDK.md), [CRCL](stocks/CRCL.md), [CRWD](stocks/CRWD.md), [HOOD](stocks/HOOD.md), [IGV](stocks/IGV.md), [AAL](stocks/AAL.md), [AMD](stocks/AMD.md), [UAL](stocks/UAL.md), [MRVL](stocks/MRVL.md), [COIN](stocks/COIN.md), [DAL](stocks/DAL.md), [ASML](stocks/ASML.md), [ANET](stocks/ANET.md), [FTNT](stocks/FTNT.md), [BAC](stocks/BAC.md), [IONQ](stocks/IONQ.md), [INTC](stocks/INTC.md), [QQQ](stocks/QQQ.md), [ARKK](stocks/ARKK.md), [VOO](stocks/VOO.md)
+- **周线动能门未通过（39；周MACD柱为负，不等同长期价格趋势向下）**：[SPY](stocks/SPY.md), [ORCL](stocks/ORCL.md), [TSM](stocks/TSM.md), [PGEN](stocks/PGEN.md), [AVGO](stocks/AVGO.md), [QQQM](stocks/QQQM.md), [VST](stocks/VST.md), [AMZN](stocks/AMZN.md), [GOOG](stocks/GOOG.md), [AMBA](stocks/AMBA.md), [UMAC](stocks/UMAC.md), [NFLX](stocks/NFLX.md), [MAGS](stocks/MAGS.md), [ROBO](stocks/ROBO.md), [BOTZ](stocks/BOTZ.md), [SYM](stocks/SYM.md), [QCOM](stocks/QCOM.md), [SOXX](stocks/SOXX.md), [UNH](stocks/UNH.md), [SNDK](stocks/SNDK.md), [CRCL](stocks/CRCL.md), [CRWD](stocks/CRWD.md), [HOOD](stocks/HOOD.md), [IGV](stocks/IGV.md), [AAL](stocks/AAL.md), [AMD](stocks/AMD.md), [UAL](stocks/UAL.md), [MRVL](stocks/MRVL.md), [COIN](stocks/COIN.md), [DAL](stocks/DAL.md), [ASML](stocks/ASML.md), [ANET](stocks/ANET.md), [FTNT](stocks/FTNT.md), [BAC](stocks/BAC.md), [IONQ](stocks/IONQ.md), [INTC](stocks/INTC.md), [QQQ](stocks/QQQ.md), [ARKK](stocks/ARKK.md), [VOO](stocks/VOO.md)
 - **信号混乱（1）**：[SPCX](stocks/SPCX.md)
 
 ---
